@@ -1,0 +1,35 @@
+{
+  "id": "trema",
+  "mnemonic": "Les deux points sur le i du maïs disent : on coupe et on lit ma-ïs !",
+  "geste": "Lever deux doigts comme les deux points du tréma, puis couper le mot en deux.",
+  "ecoute": {
+    "motsAvec": ["maïs", "canoë", "Noël", "naïf", "égoïste", "mosaïque"],
+    "motsSans": ["sortie", "balai", "moulin"]
+  },
+  "syllabes": ["ïs", "aï", "oë", "naï", "saï", "roï", "laï", "maï"],
+  "mots": ["maïs", "naïf", "canoë", "égoïste", "mosaïque", "astéroïde", "stoïque", "caraïbe", "païen", "inouï", "glaïeul", "ouïe"],
+  "phrases": [
+    "Le maïs est mûr sur la table.",
+    "Sara rame dans le canoë.",
+    "Il est naïf, mais très calme.",
+    "La mosaïque brille au soleil.",
+    "Théo a vu un astéroïde."
+  ],
+  "motsOutils": ["est", "sur", "mais", "très", "au"],
+  "dictee": [
+    {"mot": "maïs", "emoji": "🌽"},
+    {"mot": "canoë", "emoji": "🛶"},
+    {"mot": "naïf", "emoji": "😇"}
+  ],
+  "histoire": {
+    "titre": "Le maïs de Sara",
+    "lignes": [
+      "Sara a planté du maïs sur sa terre.",
+      "Le maïs pousse, mûr et doré.",
+      "Elle rame dans le canoë pour le voir.",
+      "Sara est calme et pas du tout naïve.",
+      "Elle ramasse le maïs avec sa mère.",
+      "Quel régal inouï pour le dîner !"
+    ]
+  }
+}

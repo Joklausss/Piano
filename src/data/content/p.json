@@ -1,0 +1,37 @@
+{
+  "id": "p",
+  "mnemonic": "Pour croquer la pomme, mes lèvres se serrent puis font [p] comme une bulle qui éclate.",
+  "geste": "On serre les lèvres puis on les ouvre d'un coup, comme une petite bulle qui éclate : [p] !",
+  "ecoute": {
+    "motsAvec": ["pomme", "pirate", "lampe", "papa", "soupe", "pyjama"],
+    "motsSans": ["lune", "robot", "chat"]
+  },
+  "syllabes": ["pa", "po", "pi", "pu", "pé", "pè", "pe", "pra", "pri", "plu"],
+  "mots": ["papa", "pile", "pari", "puni", "pure", "pomme", "para", "panama", "pli", "prune", "purée", "pyjama"],
+  "phrases": [
+    "Papa a pris une pomme.",
+    "Mon ami pose la pile ici.",
+    "Pépé répare la pile.",
+    "La purée est sur le repas.",
+    "Pour papa, le pyjama est sale."
+  ],
+  "motsOutils": ["pour", "par", "mon", "ma", "son"],
+  "dictee": [
+    {"mot": "papa", "emoji": "👨"},
+    {"mot": "pile", "emoji": "🔋"},
+    {"mot": "pomme", "emoji": "🍎"},
+    {"mot": "pyjama", "emoji": "🩳"}
+  ],
+  "histoire": {
+    "titre": "La pomme de papa",
+    "lignes": [
+      "Papa a une jolie pomme.",
+      "Il la pose sur le mur.",
+      "Mon ami Rémi arrive.",
+      "Papa lui sépare la pomme.",
+      "Rémi a sa pomme.",
+      "Le repas est fini.",
+      "Pour papa, Rémi a un pari."
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "i",
+  "mnemonic": "Le i se tient tout droit comme une petite île pointue plantée au milieu de la mer.",
+  "geste": "On dresse l'index bien droit vers le ciel en disant un long [iiii].",
+  "ecoute": {
+    "motsAvec": ["île", "ami", "lit", "souris", "biscuit", "nid"],
+    "motsSans": ["lune", "robot", "pomme"]
+  },
+  "syllabes": ["i", "a", "ai", "ia", "ii", "aï", "aïa", "iai"],
+  "mots": ["i", "a"],
+  "phrases": ["i, a, i.", "a, i, a."],
+  "motsOutils": ["il", "la", "y"],
+  "dictee": [
+    {"mot": "i", "emoji": "🏝️"},
+    {"mot": "a", "emoji": "🍍"}
+  ],
+  "histoire": {
+    "titre": "i, a !",
+    "lignes": ["i.", "a, i.", "i, a, i.", "a, i, a.", "i !"]
+  }
+}

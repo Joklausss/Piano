@@ -1,0 +1,36 @@
+{
+  "id": "ch",
+  "mnemonic": "Le chat fait dodo : il souffle tout doux, chhh… chhh… chhh.",
+  "geste": "Pose un doigt sur tes lèvres et souffle longtemps : chhhhh.",
+  "ecoute": {
+    "motsAvec": ["chat", "cheval", "niche", "bouche", "chocolat", "ruche"],
+    "motsSans": ["lune", "robot", "vélo", "fusée"]
+  },
+  "syllabes": ["cha", "chi", "cho", "chu", "ché", "chè", "che", "fla", "fli", "flé"],
+  "mots": ["fiche", "lèche", "léché", "fâché", "fâchée", "fée", "île", "fil"],
+  "phrases": [
+    "Il lèche la fiche.",
+    "Léa est fâchée.",
+    "Elle a léché la fiche.",
+    "Lili a une fiche.",
+    "La fée a fâché Léa."
+  ],
+  "motsOutils": ["le", "la", "il", "elle", "une"],
+  "dictee": [
+    {"mot": "fiche", "emoji": "📄"},
+    {"mot": "île", "emoji": "🏝️"},
+    {"mot": "fil", "emoji": "🧵"}
+  ],
+  "histoire": {
+    "titre": "Léa et la fée",
+    "lignes": [
+      "Léa a une fiche.",
+      "Lili lèche la fiche.",
+      "Léa est fâchée.",
+      "La fée a léché le fil.",
+      "Le fil de Léa est fichu.",
+      "Lili lèche la fiche de Léa.",
+      "Léa est alors fâchée."
+    ]
+  }
+}

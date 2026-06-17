@@ -1,0 +1,37 @@
+{
+  "id": "ph",
+  "mnemonic": "Le p et le h se donnent la main et soufflent ensemble : ffff... comme le flash d'une photo !",
+  "geste": "Mimer un appareil photo avec les deux mains et souffler doucement 'fff' en disant 'clic'.",
+  "ecoute": {
+    "motsAvec": ["photo", "éléphant", "dauphin", "phare", "phoque", "pharmacie"],
+    "motsSans": ["lapin", "tomate", "vélo", "carotte"]
+  },
+  "syllabes": ["pha", "phi", "pho", "phé", "phu", "phon", "phar", "phou", "phan", "phra"],
+  "mots": ["photo", "photos", "phare", "phares", "phoque", "phrase", "siphon", "dauphin", "éléphant", "pharaon"],
+  "phrases": [
+    "Le phoque est sur la photo.",
+    "Mon dauphin file vers le phare.",
+    "Le pharaon a un éléphant.",
+    "Il a pris une photo du dauphin.",
+    "Sur la photo, le phare est joli."
+  ],
+  "motsOutils": ["le", "la", "est", "sur", "mon", "voilà"],
+  "dictee": [
+    {"mot": "photo", "emoji": "📷"},
+    {"mot": "phare", "emoji": "🗼"},
+    {"mot": "phoque", "emoji": "🦭"},
+    {"mot": "dauphin", "emoji": "🐬"}
+  ],
+  "histoire": {
+    "titre": "La photo du dauphin",
+    "lignes": [
+      "Téo va sur le port, vers le phare.",
+      "Là, un dauphin file dans la mer.",
+      "Téo fait vite une photo : clic !",
+      "Sur la photo, le dauphin a sauté.",
+      "Un phoque arrive et il rit avec Téo.",
+      "Quelle belle photo de phoque !",
+      "Le pharaon a un éléphant et un dauphin."
+    ]
+  }
+}

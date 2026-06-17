@@ -1,0 +1,37 @@
+{
+  "id": "g",
+  "mnemonic": "Le gros gorille gonfle sa gorge et fait \"gggg\" quand il gronde dans la jungle.",
+  "geste": "On pose la main sur sa gorge et on dit \"gggg\" pour sentir le son vibrer.",
+  "ecoute": {
+    "motsAvec": ["gomme", "gare", "gorille", "wagon", "bague", "guitare"],
+    "motsSans": ["chat", "moto", "lune", "pomme"]
+  },
+  "syllabes": ["ga", "go", "gu", "gou", "gan", "gon", "gra", "glo", "gar", "gri"],
+  "mots": ["gare", "gomme", "gris", "gros", "ragot", "bague", "galop", "gant", "guidon", "grotte", "goron", "gala"],
+  "phrases": [
+    "Le gros rat galope dans la gare.",
+    "Margot a un gant gris.",
+    "La gomme est dans le sac.",
+    "Gabin gare la moto.",
+    "Un gros rat file dans la grotte."
+  ],
+  "motsOutils": ["le", "la", "un", "dans", "sur"],
+  "dictee": [
+    {"mot": "gare", "emoji": "🚉"},
+    {"mot": "gomme", "emoji": "🧽"},
+    {"mot": "gant", "emoji": "🧤"},
+    {"mot": "bague", "emoji": "💍"}
+  ],
+  "histoire": {
+    "titre": "Le gant de Margot",
+    "lignes": [
+      "Margot a un gant gris.",
+      "Elle gare la moto à la gare.",
+      "Un gros rat galope vers elle.",
+      "Le rat file dans la grotte.",
+      "Margot rit avec Gabin.",
+      "La gomme tombe dans le sac.",
+      "Gabin garde la bague de Margot."
+    ]
+  }
+}

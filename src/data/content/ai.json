@@ -1,0 +1,37 @@
+{
+  "id": "ai",
+  "mnemonic": "Le a et le i se donnent la main pour chanter [è], comme le lait qui dit aïe quand il est chaud.",
+  "geste": "Mimer le verre de lait qu'on porte à la bouche en disant [è].",
+  "ecoute": {
+    "motsAvec": ["lait", "balai", "neige", "fête", "reine", "chaise"],
+    "motsSans": ["robot", "moto", "loup", "domino"]
+  },
+  "syllabes": ["lai", "rai", "mai", "sai", "vai", "fai", "nei", "pei", "chai", "tai"],
+  "mots": ["lait", "balai", "raisin", "laine", "chaise", "semaine", "fête", "tête", "forêt", "neige", "reine", "baleine"],
+  "phrases": [
+    "Le lait est dans le bol.",
+    "La reine a un balai.",
+    "Sa laine est sur la chaise.",
+    "La baleine file vers la mer.",
+    "Il fête la neige avec papa."
+  ],
+  "motsOutils": ["est", "dans", "sur", "avec", "vers"],
+  "dictee": [
+    {"mot": "lait", "emoji": "🥛"},
+    {"mot": "balai", "emoji": "🧹"},
+    {"mot": "neige", "emoji": "❄️"},
+    {"mot": "fête", "emoji": "🎉"},
+    {"mot": "reine", "emoji": "👑"}
+  ],
+  "histoire": {
+    "titre": "La reine et la baleine",
+    "lignes": [
+      "La reine aime le lait.",
+      "Elle a un balai et de la laine.",
+      "Sur la mer, une baleine file.",
+      "La baleine vire vers la reine.",
+      "La reine rit, la baleine aussi.",
+      "Alors la reine fête la baleine."
+    ]
+  }
+}

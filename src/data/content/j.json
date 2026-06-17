@@ -1,0 +1,29 @@
+{
+  "id": "j",
+  "mnemonic": "Le [j] danse léger comme une jupe qui tournoie et vole.",
+  "geste": "Faire tourner sa main devant soi comme une jupe qui virevolte en disant jjj.",
+  "ecoute": {
+    "motsAvec": ["jupe", "jardin", "pyjama", "bonjour", "jongleur", "joue"],
+    "motsSans": ["table", "fleur", "voiture", "bateau"]
+  },
+  "syllabes": ["ja", "ji", "jo", "ju", "jé", "jè", "je", "jy", "jal", "jor"],
+  "mots": ["joli", "jolie", "jus", "jure", "jase", "Julie", "Jojo", "Léa", "vélo", "mare", "lave", "rive"],
+  "phrases": ["Le jus est sur la mare.", "Jojo jase avec Léa.", "Julie lave le vélo.", "Il a vu une jolie jarre."],
+  "motsOutils": ["le", "la", "un", "une", "est"],
+  "dictee": [
+    {"mot": "joli", "emoji": "🌸"},
+    {"mot": "jus", "emoji": "🧃"},
+    {"mot": "jure", "emoji": "🤞"}
+  ],
+  "histoire": {
+    "titre": "Julie et Jojo",
+    "lignes": [
+      "Julie a un joli vélo.",
+      "Jojo jase avec elle.",
+      "Le jus est sur la mare.",
+      "Julie lave la rive.",
+      "Léa rit et la salue.",
+      "Jojo jure : la mare est jolie !"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "un",
+  "mnemonic": "Le petit ours brun n'a qu'UN seul ami : il chante « un ! » du bout de son museau.",
+  "geste": "Lever un seul doigt devant le nez et faire vibrer le son « un » dans le nez.",
+  "ecoute": {
+    "motsAvec": ["brun", "lundi", "parfum", "chacun", "aucun", "commun"],
+    "motsSans": ["lapin", "pomme", "moto", "robot"]
+  },
+  "syllabes": ["brun", "lun", "mun", "run", "chun", "tun", "fum", "pun", "dun", "sun"],
+  "mots": ["brun", "lundi", "chacun", "aucun", "parfum", "commun", "défunt", "un", "une", "brune"],
+  "phrases": [
+    "Lundi, le chat brun dort sur le mur.",
+    "Chacun a un parfum sur sa peau.",
+    "Aucun ami n'est venu chez lui.",
+    "Le petit ours brun mange une pomme.",
+    "Il n'a qu'un bonbon dans sa main."
+  ],
+  "motsOutils": ["un", "une", "sur", "dans", "chez"],
+  "dictee": [
+    {"mot": "brun", "emoji": "🟤"},
+    {"mot": "lundi", "emoji": "📅"},
+    {"mot": "parfum", "emoji": "🌸"},
+    {"mot": "un", "emoji": "1️⃣"}
+  ],
+  "histoire": {
+    "titre": "Le brun lundi",
+    "lignes": [
+      "Lundi, un petit ours brun part sur la route.",
+      "Il n'a qu'un sac et un peu de parfum.",
+      "Aucun ami n'est là, mais il rit.",
+      "Chacun lui fait un signe de la main.",
+      "Sur le pont, il voit une lune brune.",
+      "« Un, deux, trois ! » dit l'ours brun.",
+      "Puis il rentre chez lui, ravi."
+    ]
+  }
+}

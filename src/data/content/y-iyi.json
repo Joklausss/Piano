@@ -1,0 +1,37 @@
+{
+  "id": "y-iyi",
+  "mnemonic": "Quand le y se cache entre deux voyelles, il se dédouble : il vaut deux i, comme le crayon qui trace deux traits d'un coup.",
+  "geste": "Tracer un grand V avec deux doigts dans l'air, puis prolonger le trait vers le bas pour dessiner la queue du y.",
+  "ecoute": {
+    "motsAvec": ["crayon", "rayon", "noyau", "voyage", "tuyau", "royal"],
+    "motsSans": ["lune", "tomate", "moto", "carotte"]
+  },
+  "syllabes": ["aya", "oyo", "uyu", "aye", "oye", "ayon", "oyon", "oyau", "ayer", "uyau"],
+  "mots": ["crayon", "rayon", "noyau", "voyage", "payer", "balayer", "tuyau", "royal", "foyer", "moyen", "crayonne", "rayé"],
+  "phrases": [
+    "Le crayon de papa est rayé.",
+    "Il y a un rayon dans la rue.",
+    "Le noyau est dans la prune.",
+    "Mon ami balaye le foyer.",
+    "Le tuyau royal est cassé."
+  ],
+  "motsOutils": ["le", "il", "y", "est", "dans"],
+  "dictee": [
+    {"mot": "crayon", "emoji": "✏️"},
+    {"mot": "rayon", "emoji": "🌞"},
+    {"mot": "tuyau", "emoji": "🪠"},
+    {"mot": "noyau", "emoji": "🍑"}
+  ],
+  "histoire": {
+    "titre": "Le crayon de Lya",
+    "lignes": [
+      "Lya a un joli crayon rayé.",
+      "Elle crayonne un rayon et un noyau.",
+      "Puis elle dessine un long tuyau.",
+      "Papa balaye le foyer avec elle.",
+      "Il y a un beau voyage royal sur la page.",
+      "Lya range son crayon dans la boite.",
+      "Quel moyen joli dessin !"
+    ]
+  }
+}

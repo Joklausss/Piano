@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#FFF6E9"/>
+  <!-- clavier -->
+  <g transform="translate(96 150)">
+    <rect x="0" y="0" width="320" height="180" rx="22" fill="#4A3B63"/>
+    <g>
+      <rect x="22" y="40" width="40" height="120" rx="9" fill="#8CC079"/>
+      <rect x="70" y="40" width="40" height="120" rx="9" fill="#564775"/>
+      <rect x="118" y="40" width="40" height="120" rx="9" fill="#564775"/>
+      <rect x="166" y="40" width="40" height="120" rx="9" fill="#564775"/>
+      <rect x="214" y="40" width="40" height="120" rx="9" fill="#564775"/>
+      <rect x="262" y="40" width="40" height="120" rx="9" fill="#F4C04E"/>
+    </g>
+  </g>
+  <!-- note de musique -->
+  <g transform="translate(330 96)" fill="#F2785C">
+    <circle cx="0" cy="78" r="26"/>
+    <rect x="22" y="-4" width="13" height="86" rx="6"/>
+    <path d="M22 -6 q40 6 40 40 q-18 -22 -40 -16 z"/>
+  </g>
+</svg>

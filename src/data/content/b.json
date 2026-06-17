@@ -1,0 +1,36 @@
+{
+  "id": "b",
+  "mnemonic": "Le b a un gros ventre rond comme le ballon qui rebondit : bbb, le ballon bondit !",
+  "geste": "Gonfle les joues puis fais 'b' en ouvrant la bouche, comme un ballon qui se dégonfle d'un coup.",
+  "ecoute": {
+    "motsAvec": ["ballon", "banane", "bébé", "robe", "bateau", "table"],
+    "motsSans": ["lune", "chat", "soleil"]
+  },
+  "syllabes": ["ba", "bi", "bo", "bu", "bé", "bè", "be", "bra", "bli", "bar"],
+  "mots": ["bébé", "robe", "bol", "bar", "boa", "bus", "bave", "barbe", "banane", "bobine", "cube", "table"],
+  "phrases": [
+    "Le bébé a une belle robe.",
+    "Bob a un bol sur la table.",
+    "Le boa est sur le sable.",
+    "Sara a une bobine.",
+    "Le bus est là, avec papa."
+  ],
+  "motsOutils": ["le", "la", "une", "est", "sur", "avec"],
+  "dictee": [
+    {"mot": "bébé", "emoji": "👶"},
+    {"mot": "robe", "emoji": "👗"},
+    {"mot": "bol", "emoji": "🥣"},
+    {"mot": "banane", "emoji": "🍌"}
+  ],
+  "histoire": {
+    "titre": "La robe de Sara",
+    "lignes": [
+      "Sara a une belle robe.",
+      "Le bébé est sur le sable.",
+      "Il bave sur la robe !",
+      "Bob arrive avec un bol.",
+      "Le bol est sur la table.",
+      "Sara rit avec le bébé."
+    ]
+  }
+}

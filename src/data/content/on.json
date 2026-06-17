@@ -1,0 +1,36 @@
+{
+  "id": "on",
+  "mnemonic": "Le o et le n se donnent la main sur le pont et chantent ensemble : on !",
+  "geste": "Arrondir les bras au-dessus de la tête pour dessiner l'arche d'un pont.",
+  "ecoute": {
+    "motsAvec": ["pont", "mouton", "ballon", "savon", "bonbon", "ombre"],
+    "motsSans": ["chat", "vélo", "lune", "tapis"]
+  },
+  "syllabes": ["on", "bon", "ton", "ron", "mon", "son", "don", "lon", "fon", "von"],
+  "mots": ["pont", "mouton", "ballon", "savon", "bonbon", "rond", "long", "fond", "chaton", "ronron", "ombre", "tombe"],
+  "phrases": [
+    "Le mouton est sur le pont.",
+    "Mon ballon est rond et long.",
+    "Léon a un bonbon.",
+    "Le chaton ronronne sous le lit.",
+    "Papa lave la moto avec du savon."
+  ],
+  "motsOutils": ["son", "sur", "dans", "un"],
+  "dictee": [
+    {"mot": "pont", "emoji": "🌉"},
+    {"mot": "mouton", "emoji": "🐑"},
+    {"mot": "ballon", "emoji": "🎈"},
+    {"mot": "savon", "emoji": "🧼"}
+  ],
+  "histoire": {
+    "titre": "Le pont de Léon",
+    "lignes": [
+      "Léon a un mouton tout rond.",
+      "Il monte sur le pont.",
+      "Le mouton a un ballon.",
+      "Le ballon roule sur le pont.",
+      "Plouf ! Il tombe dans la mare.",
+      "Léon rit et le mouton dit ron ron."
+    ]
+  }
+}

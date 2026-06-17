@@ -1,0 +1,28 @@
+{
+  "id": "e-acc",
+  "mnemonic": "L'éléphant lève sa trompe vers le ciel et trompette « ééé ! ».",
+  "geste": "Lever lentement le bras comme la trompe de l'éléphant qui monte, en disant « é ».",
+  "ecoute": {
+    "motsAvec": ["éléphant", "étoile", "fée", "café", "vélo", "épée"],
+    "motsSans": ["lune", "chat", "robot", "pomme"]
+  },
+  "syllabes": ["é", "a", "i", "o", "u", "é a", "é i", "a é", "o é", "é u"],
+  "mots": ["é"],
+  "phrases": ["É é é !", "Une é, alors !", "Il a é, elle a é."],
+  "motsOutils": ["il", "elle", "une", "alors"],
+  "dictee": [
+    {"mot": "é", "emoji": "🐘"},
+    {"mot": "a", "emoji": "🍍"},
+    {"mot": "i", "emoji": "🏝️"}
+  ],
+  "histoire": {
+    "titre": "É é é !",
+    "lignes": [
+      "É é é !",
+      "Il a é.",
+      "Elle a é.",
+      "Une é, alors !",
+      "É é é, é é é !"
+    ]
+  }
+}

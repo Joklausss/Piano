@@ -1,0 +1,21 @@
+{
+  "id": "o",
+  "mnemonic": "Pour dire [o], la bouche se ferme en rond comme une olive bien dodue.",
+  "geste": "On arrondit les lèvres et on dessine un grand rond dans l'air avec le doigt.",
+  "ecoute": {
+    "motsAvec": ["olive", "moto", "domino", "robot", "vélo", "pot"],
+    "motsSans": ["lune", "chat", "ananas"]
+  },
+  "syllabes": ["o", "a", "i", "o o", "a o", "o a", "i o", "o i"],
+  "mots": ["o"],
+  "phrases": ["O ! O ! O !"],
+  "motsOutils": ["il", "la"],
+  "dictee": [
+    {"mot": "o", "emoji": "🫒"},
+    {"mot": "a", "emoji": "🍍"}
+  ],
+  "histoire": {
+    "titre": "O ! O !",
+    "lignes": ["O !", "O o o !", "A ! O !", "O ! A ! I !", "O o o o !"]
+  }
+}

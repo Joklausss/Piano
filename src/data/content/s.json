@@ -1,0 +1,34 @@
+{
+  "id": "s",
+  "mnemonic": "Le serpent siffle « sssss » : sa langue glisse et fait chanter le son [s].",
+  "geste": "On fait onduler la main comme un serpent qui glisse en soufflant « sss ».",
+  "ecoute": {
+    "motsAvec": ["serpent", "salade", "souris", "sapin", "tasse", "danse"],
+    "motsSans": ["lune", "robot", "vélo", "chat"]
+  },
+  "syllabes": ["sa", "si", "so", "su", "sé", "sè", "se", "as", "is", "os"],
+  "mots": ["sa", "si", "salé", "sale", "lisse", "lasse", "fasse", "sache", "chasse", "file", "fil", "as"],
+  "phrases": [
+    "Le chat lisse sa salade.",
+    "Elle est sale et lasse.",
+    "Sa salade est salée.",
+    "Le sol lisse fait « sssss »."
+  ],
+  "motsOutils": ["sur", "est", "la", "les", "une"],
+  "dictee": [
+    {"mot": "salé", "emoji": "🧂"},
+    {"mot": "lisse", "emoji": "🧊"},
+    {"mot": "sa", "emoji": "👜"}
+  ],
+  "histoire": {
+    "titre": "Le serpent",
+    "lignes": [
+      "Sissi est un serpent.",
+      "Il file sur le sol.",
+      "Le sol est lisse.",
+      "Sa salade est salée.",
+      "Sissi siffle : sssss !",
+      "Le chat se lèche."
+    ]
+  }
+}

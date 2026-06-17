@@ -1,0 +1,36 @@
+{
+  "id": "z",
+  "mnemonic": "Le zéro zigzague et zézaie zzz, comme une abeille qui rôde : z, z, z !",
+  "geste": "Tracer un grand z en zigzag dans l'air avec l'index, du haut vers le bas.",
+  "ecoute": {
+    "motsAvec": ["zéro", "zèbre", "lézard", "onze", "gazelle", "bazar"],
+    "motsSans": ["chat", "moto", "vélo", "lune"]
+  },
+  "syllabes": ["za", "zi", "zo", "zu", "zé", "zè", "ze", "az", "iz", "uz"],
+  "mots": ["zéro", "riz", "zone", "rose", "vase", "azur", "ruse", "zizi", "visa", "use", "rase", "ose"],
+  "phrases": [
+    "Léa a un zéro sur le mur.",
+    "La rose est sur le vase.",
+    "Il a vu une rose et la lune.",
+    "Lili rase le riz à la zone.",
+    "Zoé use une ruse avec elle."
+  ],
+  "motsOutils": ["le", "la", "une", "est", "avec"],
+  "dictee": [
+    {"mot": "zéro", "emoji": "0️⃣"},
+    {"mot": "riz", "emoji": "🍚"},
+    {"mot": "rose", "emoji": "🌹"},
+    {"mot": "vase", "emoji": "🏺"}
+  ],
+  "histoire": {
+    "titre": "Zoé et la rose",
+    "lignes": [
+      "Zoé a une rose sur le vase.",
+      "La rose est rose et lisse.",
+      "Léa la vise, elle la rive.",
+      "Alors Zoé use une ruse !",
+      "Elle file à la zone.",
+      "La rose y est à elle."
+    ]
+  }
+}

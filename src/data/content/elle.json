@@ -1,0 +1,37 @@
+{
+  "id": "elle",
+  "mnemonic": "Quand deux consonnes se donnent la main à la fin du mot, le e chante [è] : la fourchette pique la galette !",
+  "geste": "Lever deux doigts collés (les deux consonnes jumelles) puis ouvrir la bouche sur le son [è].",
+  "ecoute": {
+    "motsAvec": ["fourchette", "vaisselle", "pelle", "tresse", "chouette", "pierre"],
+    "motsSans": ["radis", "loup", "domino"]
+  },
+  "syllabes": ["elle", "ette", "esse", "erre", "belle", "nette", "tesse", "pierre", "celle", "messe"],
+  "mots": ["fourchette", "belle", "pelle", "vaisselle", "galette", "chouette", "fillette", "tresse", "vitesse", "lunettes", "pierre", "terre"],
+  "phrases": [
+    "Elle pose la fourchette sur la table.",
+    "La fillette met une belle tresse.",
+    "La chouette file à toute vitesse.",
+    "Mes lunettes sont sur la pierre.",
+    "Il ramasse la galette avec la pelle."
+  ],
+  "motsOutils": ["elle", "sur", "avec", "mes", "est"],
+  "dictee": [
+    {"mot": "pelle", "emoji": "🪏"},
+    {"mot": "belle", "emoji": "🌸"},
+    {"mot": "galette", "emoji": "🥮"},
+    {"mot": "tresse", "emoji": "💇"},
+    {"mot": "pierre", "emoji": "🪨"}
+  ],
+  "histoire": {
+    "titre": "La chouette et la galette",
+    "lignes": [
+      "Elle a une belle galette dorée.",
+      "La chouette file à toute vitesse.",
+      "Elle pose la galette sur la pierre.",
+      "La fillette arrive avec sa pelle.",
+      "Elle partage la galette avec la chouette.",
+      "Mes amis rient sur la terre molle."
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "gn",
+  "mnemonic": "Le g et le n se donnent la main pour grimper la montagne : ensemble ils font [gn] comme un petit grognement.",
+  "geste": "On plisse le nez et on fronce les sourcils en disant 'gn' comme si on râlait tout doucement.",
+  "ecoute": {
+    "motsAvec": ["montagne", "araignée", "champignon", "agneau", "peigne", "rossignol"],
+    "motsSans": ["bateau", "tomate", "fusée", "robot"]
+  },
+  "syllabes": ["gna", "gno", "gnu", "gné", "gnon", "gni", "gnan", "gnou", "gnè", "gnin"],
+  "mots": ["montagne", "ligne", "vigne", "signe", "agneau", "peigne", "cogne", "soigne", "rogne", "gagne", "champignon", "araignée"],
+  "phrases": [
+    "La vigne pousse sur la montagne.",
+    "Le petit agneau gagne le pré.",
+    "Sara peigne sa nièce avec soin.",
+    "Mon ami soigne son chat malin.",
+    "Voilà une ligne et un beau signe."
+  ],
+  "motsOutils": ["sur", "une", "mon", "voilà", "avec"],
+  "dictee": [
+    {"mot": "ligne", "emoji": "📏"},
+    {"mot": "vigne", "emoji": "🍇"},
+    {"mot": "agneau", "emoji": "🐑"},
+    {"mot": "peigne", "emoji": "🪮"},
+    {"mot": "montagne", "emoji": "⛰️"}
+  ],
+  "histoire": {
+    "titre": "La montagne de Manon",
+    "lignes": [
+      "Manon monte sur la montagne.",
+      "Elle voit une vigne et un agneau.",
+      "L'agneau cogne un champignon.",
+      "Manon peigne sa toison avec soin.",
+      "Puis elle soigne sa patte.",
+      "Voilà, l'agneau gagne le pré !"
+    ]
+  }
+}

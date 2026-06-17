@@ -1,0 +1,37 @@
+{
+  "id": "tion",
+  "mnemonic": "Dans la potion magique, le t et le i sifflent ensemble : -tion chante [sion] !",
+  "geste": "On remue une potion imaginaire avec le doigt en chuchotant 'sion'.",
+  "ecoute": {
+    "motsAvec": ["potion", "addition", "récréation", "punition", "station", "invitation"],
+    "motsSans": ["tomate", "lavabo", "fourmi", "bouchon"]
+  },
+  "syllabes": ["tion", "sion", "tio", "nation", "lotion", "ration", "potion", "mention"],
+  "mots": ["potion", "lotion", "ration", "nation", "portion", "punition", "addition", "invitation", "récréation", "récitation", "opération", "imitation"],
+  "phrases": [
+    "La potion de la fée est sur la table.",
+    "Sami a fini son addition pour la note.",
+    "À la récréation, il imite un robot.",
+    "La punition est dure mais sa mère a raison.",
+    "Mila a une invitation pour la fête."
+  ],
+  "motsOutils": ["la", "est", "sur", "pour", "mais", "une"],
+  "dictee": [
+    {"mot": "potion", "emoji": "🧪"},
+    {"mot": "lotion", "emoji": "🧴"},
+    {"mot": "nation", "emoji": "🏳️"},
+    {"mot": "addition", "emoji": "➕"}
+  ],
+  "histoire": {
+    "titre": "La potion de Lila",
+    "lignes": [
+      "Lila a une potion dans un bocal.",
+      "Elle verse une ration de sirop.",
+      "Puis elle remue avec attention.",
+      "La potion fait une drôle de fumée.",
+      "C'est la potion de la récréation !",
+      "Toto la goûte avec émotion.",
+      "Quelle bonne invention, dit Lila."
+    ]
+  }
+}

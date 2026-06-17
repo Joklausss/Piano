@@ -1,0 +1,30 @@
+{
+  "id": "l",
+  "mnemonic": "Le lion lève la langue et chante un long llllll, comme une vague qui glisse tout doucement.",
+  "geste": "Pose le bout de ta langue derrière tes dents du haut et fais durer le son llllll.",
+  "ecoute": {
+    "motsAvec": ["lion", "lune", "vélo", "salade", "lavabo", "pile"],
+    "motsSans": ["chat", "robot", "moto"]
+  },
+  "syllabes": ["la", "li", "lo", "lu", "lé", "lè", "le", "al", "il", "ly"],
+  "mots": ["lila", "lulu", "léa", "lily", "élu", "île", "ali", "lilo", "alu", "olé"],
+  "phrases": ["Léa est là.", "Il a élu Ali.", "Lily est ici.", "Elle a lu, lu, lu."],
+  "motsOutils": ["la", "le", "les", "il", "elle"],
+  "dictee": [
+    {"mot": "la", "emoji": "🅰️"},
+    {"mot": "lu", "emoji": "📖"},
+    {"mot": "île", "emoji": "🏝️"},
+    {"mot": "léa", "emoji": "👧"}
+  ],
+  "histoire": {
+    "titre": "Léa et Lulu",
+    "lignes": [
+      "Léa est là.",
+      "Lulu est ici.",
+      "Il a lu.",
+      "Elle a lu.",
+      "Ali a élu Léa.",
+      "Lily est élue."
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "x",
+  "mnemonic": "Le x, ce sont deux routes qui se croisent : le taxi y fonce en faisant ks-ks-ks !",
+  "geste": "Croise tes deux index devant toi pour dessiner un grand x dans l'air.",
+  "ecoute": {
+    "motsAvec": ["taxi", "six", "boxe", "fixe", "luxe", "klaxon"],
+    "motsSans": ["banane", "chapeau", "moto", "soleil"]
+  },
+  "syllabes": ["xa", "xi", "xo", "xu", "ax", "ix", "ox", "ux", "xé", "ex"],
+  "mots": ["taxi", "six", "dix", "boxe", "fixe", "luxe", "axe", "taxe", "maxi", "vexe", "mixe", "saxo"],
+  "phrases": [
+    "Le taxi roule vite vers la ville.",
+    "Max a six dés et dix billes.",
+    "La moto fixe est sous le mur.",
+    "Papa mixe une purée pour Lila.",
+    "Le saxo de Théo fait un solo."
+  ],
+  "motsOutils": ["le", "la", "des", "pour", "sous", "vers"],
+  "dictee": [
+    {"mot": "taxi", "emoji": "🚕"},
+    {"mot": "six", "emoji": "6️⃣"},
+    {"mot": "dix", "emoji": "🔟"},
+    {"mot": "boxe", "emoji": "🥊"},
+    {"mot": "saxo", "emoji": "🎷"}
+  ],
+  "histoire": {
+    "titre": "Le taxi de Max",
+    "lignes": [
+      "Max monte dans un taxi jaune.",
+      "Le taxi file vite vers la ville.",
+      "Il y a six rues et dix feux.",
+      "Un saxo joue à la radio.",
+      "Max paie et dit merci.",
+      "Quel luxe, ce taxi rapide !"
+    ]
+  }
+}

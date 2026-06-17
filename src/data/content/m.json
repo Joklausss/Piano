@@ -1,0 +1,31 @@
+{
+  "id": "m",
+  "mnemonic": "La moto fait mmm... mmm... quand elle démarre : c'est le son [m] !",
+  "geste": "On pose la main sur les lèvres fermées et on les fait vibrer en disant mmm.",
+  "ecoute": {
+    "motsAvec": ["moto", "mamie", "lama", "mouton", "pomme", "fumée"],
+    "motsSans": ["lion", "fusée", "vélo", "chat"]
+  },
+  "syllabes": ["ma", "mi", "mo", "mu", "mé", "mè", "me", "my"],
+  "mots": ["mamie", "mémé", "mime", "lama", "ami", "amie", "lime", "mule", "mal", "mèche", "fil", "sale"],
+  "phrases": ["La mamie est là.", "Il a mal.", "Lili mime le lama.", "Mémé a une amie.", "La mule est sale."],
+  "motsOutils": ["le", "la", "il", "elle", "est", "et"],
+  "dictee": [
+    {"mot": "mamie", "emoji": "👵"},
+    {"mot": "lama", "emoji": "🦙"},
+    {"mot": "mule", "emoji": "🐴"},
+    {"mot": "ami", "emoji": "🙂"}
+  ],
+  "histoire": {
+    "titre": "Mémé et le lama",
+    "lignes": [
+      "Mémé a un ami.",
+      "Il a un lama.",
+      "Le lama est sale.",
+      "Mémé lime le mil.",
+      "Lili mime le lama.",
+      "La mamie est là.",
+      "Elle a mal !"
+    ]
+  }
+}

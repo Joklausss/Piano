@@ -1,0 +1,37 @@
+{
+  "id": "er",
+  "mnemonic": "Au bout du mot, -er, -ez et -es chantent tous le même [é], comme le bout du nez.",
+  "geste": "On pose le doigt sur le bout de son nez en disant un petit [é] joyeux.",
+  "ecoute": {
+    "motsAvec": ["nez", "manger", "chanter", "donnez", "panier", "rosier"],
+    "motsSans": ["lune", "moto", "chat", "souris"]
+  },
+  "syllabes": ["ber", "fer", "mez", "nez", "ler", "rez", "ger", "ver", "pez", "ser"],
+  "mots": ["nez", "manger", "donner", "laver", "panier", "rosier", "chanter", "fermer", "donnez", "lavez", "fermez", "tomber"],
+  "phrases": [
+    "Le chat va manger sur le tapis.",
+    "Donnez le panier à mamie.",
+    "Il va chanter avec sa sœur.",
+    "Le rosier a des roses rouges.",
+    "Lavez vos mains, dit papa."
+  ],
+  "motsOutils": ["chez", "des", "avec", "très", "pour"],
+  "dictee": [
+    {"mot": "nez", "emoji": "👃"},
+    {"mot": "panier", "emoji": "🧺"},
+    {"mot": "rosier", "emoji": "🌹"},
+    {"mot": "manger", "emoji": "🍽️"}
+  ],
+  "histoire": {
+    "titre": "Le panier de mamie",
+    "lignes": [
+      "Mamie va au marché pour manger.",
+      "Elle met des poires dans le panier.",
+      "Le marchand va lui donner un melon.",
+      "« Goûtez ! » dit-il avec un sourire.",
+      "Mamie rit, son nez est tout rose.",
+      "Elle dit merci et rentre chez elle.",
+      "Le soir, toute la famille va manger."
+    ]
+  }
+}

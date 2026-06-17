@@ -1,0 +1,36 @@
+{
+  "id": "an",
+  "mnemonic": "Le gant glisse sur la main et chante un grand « an » bien gonflé.",
+  "geste": "Souffler en posant la main à plat sur la gorge pour sentir le son [an] vibrer.",
+  "ecoute": {
+    "motsAvec": ["gant", "manteau", "éléphant", "balance", "dimanche", "vampire"],
+    "motsSans": ["bateau", "moto", "souris"]
+  },
+  "syllabes": ["an", "ban", "ran", "van", "san", "fan", "tan", "dan", "chan", "pan"],
+  "mots": ["gant", "banc", "an", "divan", "ruban", "panda", "lande", "tante", "branche", "chanson", "dimanche", "sandale"],
+  "phrases": [
+    "Le panda est sur le divan.",
+    "Sa tante a un grand ruban.",
+    "Le gant de papa est dans le banc.",
+    "Il y a une branche sur la lande.",
+    "Mes amis chantent une chanson."
+  ],
+  "motsOutils": ["dans", "son", "sa", "mes", "est"],
+  "dictee": [
+    {"mot": "gant", "emoji": "🧤"},
+    {"mot": "banc", "emoji": "🪑"},
+    {"mot": "panda", "emoji": "🐼"},
+    {"mot": "ruban", "emoji": "🎀"}
+  ],
+  "histoire": {
+    "titre": "Le panda et le gant",
+    "lignes": [
+      "Le panda est sur un banc.",
+      "Il a un gant dans sa patte.",
+      "Sa tante arrive avec un ruban.",
+      "Elle range le gant dans le divan.",
+      "Le panda chante une chanson.",
+      "Dimanche, il va sur la lande."
+    ]
+  }
+}

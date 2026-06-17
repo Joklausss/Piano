@@ -1,0 +1,36 @@
+{
+  "id": "ou",
+  "mnemonic": "Le loup ouvre grand sa gueule et hurle 'ouououou' vers la lune : le o et le u se donnent la patte pour faire [ou].",
+  "geste": "Arrondir les lèvres comme pour souffler et mimer un loup qui hurle.",
+  "ecoute": {
+    "motsAvec": ["loup", "roue", "soupe", "hibou", "mouche", "genou"],
+    "motsSans": ["chat", "vélo", "tapis", "lune"]
+  },
+  "syllabes": ["ou", "fou", "lou", "rou", "mou", "tou", "nou", "chou", "bou", "dou"],
+  "mots": ["loup", "roue", "joue", "four", "cou", "soupe", "poule", "route", "boule", "coude", "moustache", "coucou"],
+  "phrases": [
+    "Le loup est sur la route.",
+    "La poule a une joue douce.",
+    "Il joue avec la boule rouge.",
+    "Mamou a une jolie toupie."
+  ],
+  "motsOutils": ["le", "la", "une", "est", "sur", "avec"],
+  "dictee": [
+    {"mot": "loup", "emoji": "🐺"},
+    {"mot": "roue", "emoji": "🛞"},
+    {"mot": "soupe", "emoji": "🍲"},
+    {"mot": "poule", "emoji": "🐔"},
+    {"mot": "four", "emoji": "🔥"}
+  ],
+  "histoire": {
+    "titre": "Le loup et la poule",
+    "lignes": [
+      "Un loup mou marche sur la route.",
+      "Il a une boule de soupe douce.",
+      "La poule joue avec une roue.",
+      "Le loup dit : coucou la poule !",
+      "La poule rit et lui fait un bout.",
+      "Le loup et la poule jouent sous la lune."
+    ]
+  }
+}

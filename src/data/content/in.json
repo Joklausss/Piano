@@ -1,0 +1,37 @@
+{
+  "id": "in",
+  "mnemonic": "Le lapin dresse une oreille pointue et fait « innn » dans le jardin.",
+  "geste": "Pince le pouce et l'index pour dessiner une petite oreille pointue de lapin.",
+  "ecoute": {
+    "motsAvec": ["lapin", "sapin", "lutin", "matin", "moulin", "jardin"],
+    "motsSans": ["banane", "tortue", "soleil"]
+  },
+  "syllabes": ["in", "lin", "rin", "din", "min", "pin", "tin", "vin", "sin", "fin"],
+  "mots": ["lapin", "sapin", "lutin", "matin", "moulin", "jardin", "marin", "patin", "câlin", "dindon", "pinson", "timbre"],
+  "phrases": [
+    "Le lapin câlin dort dans le sapin.",
+    "Le marin a un patin sous le bras.",
+    "Mon lutin file au moulin ce matin.",
+    "Voilà un dindon malin dans le jardin.",
+    "Le pinson chante sur la vitre."
+  ],
+  "motsOutils": ["le", "la", "un", "dans", "sous", "voilà"],
+  "dictee": [
+    {"mot": "lapin", "emoji": "🐰"},
+    {"mot": "sapin", "emoji": "🌲"},
+    {"mot": "moulin", "emoji": "🌬️"},
+    {"mot": "jardin", "emoji": "🌷"}
+  ],
+  "histoire": {
+    "titre": "Le lutin du jardin",
+    "lignes": [
+      "Un lutin malin vit dans le jardin.",
+      "Le matin, il file vers le moulin.",
+      "Sur le chemin, il voit un lapin câlin.",
+      "Le lapin dort sous un sapin.",
+      "Le lutin lui donne un câlin.",
+      "Puis il rit avec le dindon.",
+      "Voilà un joli matin de lutin."
+    ]
+  }
+}

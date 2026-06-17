@@ -1,0 +1,36 @@
+{
+  "id": "ill",
+  "mnemonic": "Le papillon plie ses ailes et chante « ille-ille-ille » en frôlant la jonquille.",
+  "geste": "Faire battre ses deux mains comme les ailes d'un papillon devant soi.",
+  "ecoute": {
+    "motsAvec": ["papillon", "fille", "bille", "vanille", "chenille", "jonquille"],
+    "motsSans": ["lune", "bateau", "rideau"]
+  },
+  "syllabes": ["ille", "pille", "bille", "fille", "mille", "rille", "nille", "tille", "quille", "ville"],
+  "mots": ["papillon", "bille", "fille", "quille", "vanille", "chenille", "jonquille", "famille", "béquille", "brille", "bouillon", "grille"],
+  "phrases": [
+    "Le papillon brille sur la jonquille.",
+    "Camille a une bille et une quille.",
+    "La chenille file vers la famille.",
+    "Ma fille aime la vanille et le bouillon.",
+    "Le papillon vole sous la grille."
+  ],
+  "motsOutils": ["le", "la", "une", "sur", "et", "vers"],
+  "dictee": [
+    {"mot": "bille", "emoji": "🔵"},
+    {"mot": "fille", "emoji": "👧"},
+    {"mot": "quille", "emoji": "🎳"},
+    {"mot": "papillon", "emoji": "🦋"}
+  ],
+  "histoire": {
+    "titre": "Le papillon de Camille",
+    "lignes": [
+      "Camille a vu un joli papillon.",
+      "Il brille sur la jonquille.",
+      "La chenille file vers la grille.",
+      "Camille rit avec sa famille.",
+      "Le papillon vole vers la vanille.",
+      "Quelle belle famille !"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "n",
+  "mnemonic": "Le [n] chante nnn comme le nez qui renifle une jolie fleur.",
+  "geste": "Pose un doigt sous ton nez et fais vibrer nnnn.",
+  "ecoute": {
+    "motsAvec": ["nuage", "lune", "âne", "banane", "narine", "niche"],
+    "motsSans": ["chat", "robot", "vélo", "fraise"]
+  },
+  "syllabes": ["na", "ni", "no", "nu", "né", "nè", "ne", "ny", "ra", "mi"],
+  "mots": ["âne", "lune", "mine", "narine", "ananas", "niche", "fine", "marine", "rumine", "lime", "sirène", "mare"],
+  "phrases": ["Léa a une lune.", "L'âne rumine.", "Marine a une niche.", "Il a une fine narine.", "La sirène est sur la mare."],
+  "motsOutils": ["une", "un", "il", "elle", "est"],
+  "dictee": [
+    {"mot": "âne", "emoji": "🫏"},
+    {"mot": "lune", "emoji": "🌙"},
+    {"mot": "ananas", "emoji": "🍍"},
+    {"mot": "niche", "emoji": "🏠"}
+  ],
+  "histoire": {
+    "titre": "L'âne de Marine",
+    "lignes": [
+      "Marine a un âne.",
+      "L'âne rumine.",
+      "Il a une fine narine.",
+      "La lune est sur la niche.",
+      "Marine rit avec l'âne.",
+      "Elle file à la mare."
+    ]
+  }
+}

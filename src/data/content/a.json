@@ -1,0 +1,20 @@
+{
+  "id": "a",
+  "mnemonic": "Quand on croque un gros ananas bien mûr, la bouche s'ouvre grand et chante : aaa !",
+  "geste": "Ouvre grand la bouche comme pour croquer un fruit, la main qui descend devant le menton.",
+  "ecoute": {
+    "motsAvec": ["ananas", "avion", "papa", "chat", "table", "lavabo"],
+    "motsSans": ["lune", "vélo", "pomme"]
+  },
+  "syllabes": ["a", "a a", "a a a", "aa", "a-a", "a a a a"],
+  "mots": ["a"],
+  "phrases": ["a !", "a a a.", "à a."],
+  "motsOutils": ["à"],
+  "dictee": [
+    {"mot": "a", "emoji": "🅰️"}
+  ],
+  "histoire": {
+    "titre": "a a a",
+    "lignes": ["a !", "a a.", "a a a !", "à a a.", "a a a a !"]
+  }
+}

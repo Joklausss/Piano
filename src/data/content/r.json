@@ -1,0 +1,36 @@
+{
+  "id": "r",
+  "mnemonic": "Le rrrobot ronronne : sa gorge fait rrr quand il roule sur le sol.",
+  "geste": "On fait vibrer la gorge en grognant doucement comme un moteur : rrr.",
+  "ecoute": {
+    "motsAvec": ["robot", "rire", "souris", "carotte", "renard", "guitare"],
+    "motsSans": ["lune", "chat", "moto"]
+  },
+  "syllabes": ["ra", "ri", "ro", "ru", "ré", "rè", "ar", "or", "fra", "cha"],
+  "mots": ["rira", "rare", "mari", "mare", "rame", "lire", "rue", "mer", "riche", "salé", "sera", "Rémi"],
+  "phrases": [
+    "Rémi rira à la mare.",
+    "Mila a la rame.",
+    "Sara lira sur le mur.",
+    "Le mari rira avec elle.",
+    "La rue est rare."
+  ],
+  "motsOutils": ["le", "la", "il", "elle", "à"],
+  "dictee": [
+    {"mot": "rame", "emoji": "🛶"},
+    {"mot": "mare", "emoji": "💧"},
+    {"mot": "rue", "emoji": "🛣️"},
+    {"mot": "lire", "emoji": "📖"}
+  ],
+  "histoire": {
+    "titre": "Rémi à la mare",
+    "lignes": [
+      "Rémi rira à la mare.",
+      "Il rira, il rira.",
+      "Mila a la rame.",
+      "Sara rira avec lui.",
+      "La mare est rare.",
+      "Rémi a ri à la mare."
+    ]
+  }
+}

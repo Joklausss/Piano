@@ -1,0 +1,36 @@
+{
+  "id": "c",
+  "mnemonic": "Le c croque la carotte : crac, crac, il fait le son [k] !",
+  "geste": "On plie la main comme une pince qui croque, et on dit [k].",
+  "ecoute": {
+    "motsAvec": ["carotte", "café", "canard", "école", "casque", "sac"],
+    "motsSans": ["lampe", "vélo", "tortue", "souris"]
+  },
+  "syllabes": ["ca", "co", "cu", "ac", "oc", "uc", "cra", "cro", "cla", "clé"],
+  "mots": ["carotte", "café", "cane", "col", "cale", "cri", "sac", "lac", "ami", "rame", "lama", "côte"],
+  "phrases": [
+    "La cane est sur le lac.",
+    "Lucas a une carotte et un café.",
+    "Il cale le sac sous la côte.",
+    "Voilà mon ami avec sa rame."
+  ],
+  "motsOutils": ["avec", "voilà", "sur", "mon", "sous"],
+  "dictee": [
+    {"mot": "café", "emoji": "☕"},
+    {"mot": "carotte", "emoji": "🥕"},
+    {"mot": "sac", "emoji": "🎒"},
+    {"mot": "lac", "emoji": "🏞️"}
+  ],
+  "histoire": {
+    "titre": "La carotte de Lucas",
+    "lignes": [
+      "Lucas a un sac.",
+      "Dans le sac, il y a une carotte.",
+      "La carotte est sur la cale.",
+      "Une cane arrive avec sa rame.",
+      "La cane cale la carotte.",
+      "Lucas rit : crac, crac !",
+      "La cane a sa carotte, voilà !"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "u",
+  "mnemonic": "La lune fait une bouche toute ronde et pointue pour souffler : uuu !",
+  "geste": "On arrondit les lèvres en avant comme pour souffler une petite bougie et on dit u.",
+  "ecoute": {
+    "motsAvec": ["lune", "tortue", "mur", "bulle", "jupe", "salut"],
+    "motsSans": ["chat", "vélo", "moto", "porte"]
+  },
+  "syllabes": ["u", "a", "i", "o", "ua", "ui", "uo", "au", "iu", "ou"],
+  "mots": [],
+  "phrases": [],
+  "motsOutils": ["un", "une", "il", "elle"],
+  "dictee": [
+    {"mot": "u", "emoji": "🌙"}
+  ],
+  "histoire": {
+    "titre": "u u u",
+    "lignes": [
+      "u !",
+      "a, i, o, u.",
+      "u, u, u !"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v",
+  "mnemonic": "Le vélo fait vvv... en filant vite sur la route : c'est le son [v].",
+  "geste": "Pose le doigt sous tes dents du haut et fais vibrer vvv comme une roue de vélo.",
+  "ecoute": {
+    "motsAvec": ["vélo", "vache", "olive", "rivière", "navire", "lavabo"],
+    "motsSans": ["bateau", "tortue", "soleil", "guitare"]
+  },
+  "syllabes": ["va", "vé", "vi", "vo", "vu", "vè", "ve", "vy"],
+  "mots": ["vélo", "vache", "olive", "lave", "rêve", "ville", "navire", "sève", "élève", "larve", "fève", "rivière"],
+  "phrases": [
+    "Le vélo file sur la rive.",
+    "La vache lèche une olive.",
+    "Il lave le navire avec elle.",
+    "Une larve rêve sur la sève.",
+    "L'élève a vu la rivière."
+  ],
+  "motsOutils": ["le", "la", "une", "il", "elle", "est", "avec"],
+  "dictee": [
+    {"mot": "vélo", "emoji": "🚲"},
+    {"mot": "vache", "emoji": "🐄"},
+    {"mot": "olive", "emoji": "🫒"},
+    {"mot": "navire", "emoji": "🚢"}
+  ],
+  "histoire": {
+    "titre": "Le vélo de Livia",
+    "lignes": [
+      "Livia a un vélo vert olive.",
+      "Elle file vite sur la rive.",
+      "La vache la salue avec un rêve.",
+      "Lévi arrive sur son navire.",
+      "Il avale une fève et une olive.",
+      "Livia rêve : la rivière file !",
+      "Le vélo et le navire filent vite."
+    ]
+  }
+}

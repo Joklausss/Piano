@@ -1,0 +1,37 @@
+{
+  "id": "k",
+  "mnemonic": "Le koala kangourou fait kkk en croquant son bambou : k comme koala.",
+  "geste": "On plie le bras et on serre le poing près de l'oreille, comme un koala accroché à sa branche, en disant kkk.",
+  "ecoute": {
+    "motsAvec": ["koala", "kiwi", "kangourou", "ski", "moka", "képi"],
+    "motsSans": ["lune", "robot", "vélo", "jupe"]
+  },
+  "syllabes": ["ka", "ki", "ko", "ku", "ké", "kè", "kal", "kar", "kir", "kou"],
+  "mots": ["koala", "moka", "karaté", "kaki", "ski", "képi", "kola", "kart", "kora", "kéfir"],
+  "phrases": [
+    "Le koala a vu la kola.",
+    "Tara a un kaki et du moka.",
+    "Karim fait du karaté avec papa.",
+    "Le képi est sur le sac.",
+    "Léo a vu le koala sur la roche."
+  ],
+  "motsOutils": ["le", "un", "est", "avec", "sur"],
+  "dictee": [
+    {"mot": "koala", "emoji": "🐨"},
+    {"mot": "moka", "emoji": "☕"},
+    {"mot": "ski", "emoji": "🎿"},
+    {"mot": "kaki", "emoji": "🟢"}
+  ],
+  "histoire": {
+    "titre": "Le koala kaki",
+    "lignes": [
+      "Karim a un koala kaki.",
+      "Le koala adore le moka.",
+      "Il lape le moka sur la roche.",
+      "Tara arrive avec un kart.",
+      "Le koala rit et tape sur le kart.",
+      "Karim et Tara vont au ski.",
+      "Le koala kaki dort sur le sac."
+    ]
+  }
+}

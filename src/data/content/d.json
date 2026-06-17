@@ -1,0 +1,37 @@
+{
+  "id": "d",
+  "mnemonic": "Le dé roule sur la table et fait « d, d, d » : écoute le petit bruit du dé qui tombe.",
+  "geste": "On tape doucement le poing fermé sur la table, comme un dé qui rebondit.",
+  "ecoute": {
+    "motsAvec": ["dé", "dame", "salade", "pédale", "domino", "limonade"],
+    "motsSans": ["chat", "fusée", "robot", "lune"]
+  },
+  "syllabes": ["da", "de", "di", "do", "du", "dé", "dè", "dra", "dre", "dri"],
+  "mots": ["dé", "dame", "dos", "dur", "dîne", "vide", "ride", "mode", "midi", "salade", "radis", "malade"],
+  "phrases": [
+    "Le dé est sur la table.",
+    "Sara a vu une dame.",
+    "Il dîne avec sa salade.",
+    "Le radis est dur.",
+    "Ma mule est malade."
+  ],
+  "motsOutils": ["le", "la", "des", "dans", "de"],
+  "dictee": [
+    {"mot": "dé", "emoji": "🎲"},
+    {"mot": "dame", "emoji": "👩"},
+    {"mot": "salade", "emoji": "🥗"},
+    {"mot": "radis", "emoji": "🌶️"}
+  ],
+  "histoire": {
+    "titre": "Le dé de Sara",
+    "lignes": [
+      "Sara a un dé.",
+      "Le dé est dur.",
+      "Elle a vu une dame.",
+      "La dame dîne ici.",
+      "Sara mire sa salade.",
+      "Le radis est dans la salade.",
+      "Sara rit avec la dame."
+    ]
+  }
+}

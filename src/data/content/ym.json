@@ -1,0 +1,37 @@
+{
+  "id": "ym",
+  "mnemonic": "Le lynx malin a perdu son i : son y se bouche le nez et fait [in], comme dans sympa et thym !",
+  "geste": "On pince son nez avec deux doigts en disant [in] : le y a le nez bouché.",
+  "ecoute": {
+    "motsAvec": ["lynx", "thym", "sympa", "synthé", "tympan", "symbole"],
+    "motsSans": ["lune", "vélo", "robot", "chat"]
+  },
+  "syllabes": ["syn", "sym", "lyn", "tym", "pym", "rym", "vyn", "syn"],
+  "mots": ["lynx", "thym", "sympa", "synthé", "tympan", "symbole", "syntaxe", "olympe", "rythme", "lymphe"],
+  "phrases": [
+    "Le lynx est sur la roche.",
+    "Papa coupe le thym ici.",
+    "Lina est sympa avec sa mamie.",
+    "Le synthé a un joli rythme.",
+    "Le lynx file vers le bois."
+  ],
+  "motsOutils": ["est", "avec", "sur", "vers", "ici"],
+  "dictee": [
+    {"mot": "lynx", "emoji": "🐆"},
+    {"mot": "thym", "emoji": "🌿"},
+    {"mot": "sympa", "emoji": "😊"},
+    {"mot": "rythme", "emoji": "🥁"}
+  ],
+  "histoire": {
+    "titre": "Le lynx sympa",
+    "lignes": [
+      "Il y a un lynx malin dans le bois.",
+      "Le lynx est très sympa avec ses amis.",
+      "Il file sur la roche vers le thym.",
+      "Lila tape un joli rythme sur sa boite.",
+      "Le lynx danse et fait des pas rigolos.",
+      "Ses amis sont là avec le lynx.",
+      "Quelle joie dans le bois !"
+    ]
+  }
+}

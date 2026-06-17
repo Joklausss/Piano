@@ -1,0 +1,30 @@
+{
+  "id": "qu",
+  "mnemonic": "Le q et le u sont copains : ils ne se quittent jamais et chuchotent ensemble [k] comme dans quatre.",
+  "geste": "Tape quatre fois sur la table avec le poing fermé en disant [k] [k] [k] [k].",
+  "ecoute": {
+    "motsAvec": ["quatre", "casque", "musique", "barque", "masque", "paquet"],
+    "motsSans": ["lune", "soleil", "moto", "vélo"]
+  },
+  "syllabes": ["qua", "qui", "que", "quo", "quu", "qué", "què", "quy"],
+  "mots": ["quatre", "casque", "barque", "masque", "marque", "musique", "paquet", "piqué", "liquide", "équipe", "qualité", "quitte"],
+  "phrases": ["Luc rame sur le lac.", "Léa a un joli casque.", "Quatre amis, quelle musique !", "Le paquet est sur la table.", "La barque file vite."],
+  "motsOutils": ["qui", "que", "voilà", "ici", "avec"],
+  "dictee": [
+    {"mot": "quatre", "emoji": "4️⃣"},
+    {"mot": "casque", "emoji": "🪖"},
+    {"mot": "barque", "emoji": "🛶"},
+    {"mot": "masque", "emoji": "🎭"}
+  ],
+  "histoire": {
+    "titre": "La barque de Luc",
+    "lignes": [
+      "Luc a une jolie barque.",
+      "Il rame sur le lac.",
+      "Léa met son casque.",
+      "Voilà quatre amis ici !",
+      "La barque file, rapide.",
+      "Quelle belle équipe avec Luc !"
+    ]
+  }
+}

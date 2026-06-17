@@ -1,0 +1,30 @@
+{
+  "id": "f",
+  "mnemonic": "La fusée fait ffff et file dans le ciel : ffff, c'est le son [f] !",
+  "geste": "On pose les dents sur la lèvre et on souffle l'air : ffff, comme la fumée qui file.",
+  "ecoute": {
+    "motsAvec": ["fusée", "fil", "fée", "girafe", "café", "téléphone"],
+    "motsSans": ["lune", "robot", "salade", "domino"]
+  },
+  "syllabes": ["fa", "fi", "fo", "fu", "fé", "fè", "fe", "fy", "fla", "fli"],
+  "mots": ["fil", "fée", "filé", "filée", "folie", "folle", "fila", "lié", "île", "elle", "alla", "lila"],
+  "phrases": ["Léa lia le fil.", "La fée a filé.", "Il alla à la folie.", "Elle a fui l'île.", "Lola lia le lila."],
+  "motsOutils": ["la", "le", "il", "elle", "à"],
+  "dictee": [
+    {"mot": "fil", "emoji": "🧵"},
+    {"mot": "fée", "emoji": "🧚"},
+    {"mot": "île", "emoji": "🏝️"}
+  ],
+  "histoire": {
+    "titre": "La fée Lila",
+    "lignes": [
+      "Léa a une fée.",
+      "La fée Lila file un fil.",
+      "Elle lia le fil à l'île.",
+      "Lulu a fui : il a la folie !",
+      "La fée a filé.",
+      "Léa alla à l'île.",
+      "Elle a lié Lila."
+    ]
+  }
+}

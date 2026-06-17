@@ -1,0 +1,37 @@
+{
+  "id": "t",
+  "mnemonic": "Le [t] tape comme une petite trotteuse : « t... t... t... », c'est la tomate qui tombe sur la table.",
+  "geste": "Tapote deux fois le bout de ta langue derrière tes dents du haut en disant « t... t... ».",
+  "ecoute": {
+    "motsAvec": ["tomate", "tortue", "tapis", "moto", "patate", "tartine"],
+    "motsSans": ["banane", "vélo", "girafe", "ananas"]
+  },
+  "syllabes": ["ta", "ti", "to", "tu", "té", "tè", "tou", "ton", "tan", "tra"],
+  "mots": ["tomate", "moto", "tapis", "tasse", "tulipe", "tutu", "patate", "tortue", "tisane", "pâte", "tartine", "vitre"],
+  "phrases": [
+    "La tomate est sur la table.",
+    "Tata a vu une tortue.",
+    "Il a sali ta tasse.",
+    "Mon tutu est joli, voilà !",
+    "La moto file sur la route."
+  ],
+  "motsOutils": ["la", "est", "sur", "ta", "mon", "voilà"],
+  "dictee": [
+    {"mot": "tomate", "emoji": "🍅"},
+    {"mot": "moto", "emoji": "🛵"},
+    {"mot": "tortue", "emoji": "🐢"},
+    {"mot": "tapis", "emoji": "🧶"}
+  ],
+  "histoire": {
+    "titre": "La tortue Tati",
+    "lignes": [
+      "Tati est une petite tortue.",
+      "Elle a vu une tomate mûre.",
+      "Elle file sur le tapis.",
+      "Mais Tati va si peu vite !",
+      "Voilà la tomate sur la table.",
+      "Tati la savoure : « Mmm ! »",
+      "La tortue Tati est ravie."
+    ]
+  }
+}

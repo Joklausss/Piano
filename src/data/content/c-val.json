@@ -1,0 +1,37 @@
+{
+  "id": "c-val",
+  "mnemonic": "Devant e, i ou y, le c siffle comme le citron acide : ssss !",
+  "geste": "Pincer les lèvres et faire glisser le doigt sur la joue en sifflant un long sssss, comme si le citron piquait.",
+  "ecoute": {
+    "motsAvec": ["citron", "cerise", "glaçon", "garçon", "police", "cinéma"],
+    "motsSans": ["banane", "lampe", "moto", "kangourou"]
+  },
+  "syllabes": ["ce", "ci", "cy", "ça", "ço", "çu", "cer", "cil", "çon", "cir"],
+  "mots": ["ceci", "cire", "souci", "racine", "police", "cerise", "citron", "cinéma", "leçon", "façon", "glaçon", "garçon"],
+  "phrases": [
+    "Le garçon adore le citron acide.",
+    "Sur la place, il y a une cerise.",
+    "Ma leçon parle d'un petit glaçon.",
+    "La police a vu la racine ici.",
+    "Voilà un souci de façon facile."
+  ],
+  "motsOutils": ["le", "la", "il", "y", "voilà", "ici"],
+  "dictee": [
+    {"mot": "citron", "emoji": "🍋"},
+    {"mot": "cerise", "emoji": "🍒"},
+    {"mot": "glaçon", "emoji": "🧊"},
+    {"mot": "garçon", "emoji": "👦"},
+    {"mot": "police", "emoji": "🚓"}
+  ],
+  "histoire": {
+    "titre": "Le souci de Cécile",
+    "lignes": [
+      "Cécile a un petit souci ici.",
+      "Sur la table, il y a un citron.",
+      "Le citron acide pique sa racine.",
+      "Alors, elle pose un glaçon dessus.",
+      "Le garçon arrive avec une cerise.",
+      "Cécile rit de bonne façon !"
+    ]
+  }
+}

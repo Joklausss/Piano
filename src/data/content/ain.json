@@ -1,0 +1,37 @@
+{
+  "id": "ain",
+  "mnemonic": "Quand le a et le i tiennent le n par la main, ils chantent ensemble le son [in] : ain !",
+  "geste": "On lève une main ouverte et on l'agite, comme pour dire au revoir, en disant [in].",
+  "ecoute": {
+    "motsAvec": ["main", "pain", "bain", "train", "frein", "peinture"],
+    "motsSans": ["lune", "robot", "chapeau", "souris"]
+  },
+  "syllabes": ["ain", "ein", "bain", "main", "rain", "pein", "sain", "tain", "vain", "fein"],
+  "mots": ["main", "bain", "pain", "sain", "nain", "vain", "train", "frein", "rein", "sapin", "lutin", "matin"],
+  "phrases": [
+    "Le nain a une main sur le pain.",
+    "Mon train file vers le ravin.",
+    "Papa a un bain et du savon.",
+    "La main de Sami est sur le frein.",
+    "Le sapin est sain et fin."
+  ],
+  "motsOutils": ["dans", "sur", "mon", "avec", "pour"],
+  "dictee": [
+    {"mot": "main", "emoji": "✋"},
+    {"mot": "pain", "emoji": "🥖"},
+    {"mot": "bain", "emoji": "🛁"},
+    {"mot": "train", "emoji": "🚂"},
+    {"mot": "sapin", "emoji": "🌲"}
+  ],
+  "histoire": {
+    "titre": "Le train de Romain",
+    "lignes": [
+      "Romain monte dans le train du matin.",
+      "Il a du pain dans sa main.",
+      "Le train file et file, il fait du vent.",
+      "Romain voit un sapin, puis un ravin.",
+      "Il arrive au bain, tout content.",
+      "Romain est sain et le train est parti."
+    ]
+  }
+}

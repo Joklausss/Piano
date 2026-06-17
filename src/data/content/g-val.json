@@ -1,0 +1,38 @@
+{
+  "id": "g-val",
+  "mnemonic": "Devant e, i et y, le g devient doux et chuchote [j] comme la girafe au long cou.",
+  "geste": "Glisser le doigt le long du cou pour mimer la girafe en disant doucement [j].",
+  "ecoute": {
+    "motsAvec": ["girafe", "genou", "bougie", "nuage", "plage", "pigeon"],
+    "motsSans": ["gâteau", "tomate", "lapin", "moto"]
+  },
+  "syllabes": ["ge", "gi", "gé", "gè", "gy", "geu", "gir", "ger", "gin", "gé"],
+  "mots": ["girafe", "gel", "givre", "rougi", "agile", "magie", "page", "rage", "tige", "image", "village", "nuage"],
+  "phrases": [
+    "La girafe est agile sur la page.",
+    "Il a rougi de rage.",
+    "Sa magie fait une jolie image.",
+    "Le givre gèle la tige du village.",
+    "Un nuage gris file sur le pré."
+  ],
+  "motsOutils": ["le", "la", "un", "est", "sur"],
+  "dictee": [
+    {"mot": "girafe", "emoji": "🦒"},
+    {"mot": "page", "emoji": "📄"},
+    {"mot": "nuage", "emoji": "☁️"},
+    {"mot": "tige", "emoji": "🌱"},
+    {"mot": "image", "emoji": "🖼️"}
+  ],
+  "histoire": {
+    "titre": "La girafe agile",
+    "lignes": [
+      "Une girafe agile vit au village.",
+      "Elle aime la magie et les jolies images.",
+      "Sur la page, elle a rougi de joie.",
+      "Le givre gèle la tige du sapin.",
+      "Mais la girafe rit et file sur le pré.",
+      "Un nuage gris passe sur le village.",
+      "La girafe agile range son image."
+    ]
+  }
+}

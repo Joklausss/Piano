@@ -1,0 +1,37 @@
+{
+  "id": "eil",
+  "mnemonic": "Le soleil de midi finit en -eil, et il réveille tout le village !",
+  "geste": "Mettre la main en visière au-dessus des yeux comme pour regarder le soleil.",
+  "ecoute": {
+    "motsAvec": ["soleil", "abeille", "bouteille", "feuille", "ail", "fauteuil"],
+    "motsSans": ["banane", "moto", "chapeau"]
+  },
+  "syllabes": ["eil", "ail", "euil", "ouil", "veil", "raill", "seuil", "douill", "teil", "maill"],
+  "mots": ["soleil", "réveil", "orteil", "abeille", "bouteille", "ail", "rail", "paille", "médaille", "feuille", "fauteuil", "grenouille"],
+  "phrases": [
+    "Le soleil réveille la petite abeille.",
+    "Papa pose la bouteille sur le rail.",
+    "Mon fauteuil est sous la feuille verte.",
+    "La grenouille saute dans la paille.",
+    "Il a mal à un orteil, oui !"
+  ],
+  "motsOutils": ["le", "la", "il", "est", "sur", "dans"],
+  "dictee": [
+    {"mot": "soleil", "emoji": "☀️"},
+    {"mot": "abeille", "emoji": "🐝"},
+    {"mot": "feuille", "emoji": "🍂"},
+    {"mot": "ail", "emoji": "🧄"}
+  ],
+  "histoire": {
+    "titre": "Le réveil du soleil",
+    "lignes": [
+      "Le soleil se réveille très tôt.",
+      "Une abeille vole vers la feuille.",
+      "Elle se pose sur la paille jaune.",
+      "La grenouille saute dans la mare.",
+      "Papa boit dans sa bouteille.",
+      "Mon orteil touche le fauteuil mou.",
+      "Voilà, le village se réveille !"
+    ]
+  }
+}

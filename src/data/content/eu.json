@@ -1,0 +1,37 @@
+{
+  "id": "eu",
+  "mnemonic": "Le feu fait \"eeeu\" en chauffant et ma bouche fait un petit rond doux pour dire [eu].",
+  "geste": "On arrondit les lèvres comme pour souffler doucement sur une flamme.",
+  "ecoute": {
+    "motsAvec": ["feu", "fleur", "deux", "cheveux", "beurre", "voeu"],
+    "motsSans": ["chat", "moto", "lune"]
+  },
+  "syllabes": ["eu", "feu", "neu", "deu", "leu", "peu", "veu", "seu", "reu", "meu"],
+  "mots": ["feu", "jeu", "peu", "bleu", "pneu", "neuf", "seul", "peur", "fleur", "beurre", "leur", "voeu"],
+  "phrases": [
+    "Le feu est bleu sur la moto.",
+    "Il a peur, mais il joue seul.",
+    "Sa fleur est bleue et fine.",
+    "Le pneu est neuf, alors il roule.",
+    "Mon voeu : un peu de beurre."
+  ],
+  "motsOutils": ["le", "il", "mais", "alors", "des"],
+  "dictee": [
+    {"mot": "feu", "emoji": "🔥"},
+    {"mot": "jeu", "emoji": "🎲"},
+    {"mot": "bleu", "emoji": "🔵"},
+    {"mot": "fleur", "emoji": "🌸"}
+  ],
+  "histoire": {
+    "titre": "Le feu bleu",
+    "lignes": [
+      "Il y a un feu bleu.",
+      "Le feu chauffe le beurre.",
+      "Léo joue seul, mais il a peur.",
+      "Il a peur du feu et du bruit.",
+      "Sa mère lui dit : reste là.",
+      "Léo a un voeu : un pneu neuf.",
+      "Alors il rit, le feu est doux."
+    ]
+  }
+}

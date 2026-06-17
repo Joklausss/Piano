@@ -1,0 +1,18 @@
+{
+  "id": "y",
+  "mnemonic": "Le y du stylo chante exactement comme le i : c'est un i qui descend tout droit avec une petite fourche en haut.",
+  "geste": "Lever deux doigts en forme de V puis les réunir vers le bas, comme on dessine la lettre y dans l'air.",
+  "ecoute": {
+    "motsAvec": ["stylo", "pyjama", "lys", "cygne", "pyramide", "tricycle"],
+    "motsSans": ["chat", "soleil", "ballon", "renard"]
+  },
+  "syllabes": ["ya", "yi", "yo", "yu", "yé", "yè", "ay", "iy", "oy", "uy"],
+  "mots": ["y"],
+  "phrases": ["Il y a é.", "Elle est à y.", "Il y a a et é.", "Y et é, à elle."],
+  "motsOutils": ["il", "elle", "est", "et", "à", "y"],
+  "dictee": [{"mot": "y", "emoji": "✏️"}],
+  "histoire": {
+    "titre": "Le y",
+    "lignes": ["Il y a un y.", "Le y est à é.", "É et y.", "A et y, é et y.", "Il y a é, a, y.", "Y est à elle."]
+  }
+}

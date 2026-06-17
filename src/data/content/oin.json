@@ -1,0 +1,38 @@
+{
+  "id": "oin",
+  "mnemonic": "Pour viser le point juste là-bas, bien loin, j'unis o, i et n et je dis [oin] !",
+  "geste": "Tendre le bras et pointer l'index vers un point au loin en disant [oin].",
+  "ecoute": {
+    "motsAvec": ["point", "loin", "coin", "foin", "soin", "pingouin"],
+    "motsSans": ["lapin", "moto", "chat", "ballon"]
+  },
+  "syllabes": ["oin", "poin", "loin", "coin", "soin", "foin", "join", "moin", "doin", "roin"],
+  "mots": ["point", "loin", "coin", "foin", "soin", "moins", "groin", "pointu", "pointe", "témoin", "lointain", "rejoint"],
+  "phrases": [
+    "le coin est loin.",
+    "ma main a un point.",
+    "le lapin a du foin.",
+    "il a soin de son coin.",
+    "le point est lointain."
+  ],
+  "motsOutils": ["le", "la", "un", "est", "de", "son", "du"],
+  "dictee": [
+    {"mot": "point", "emoji": "📍"},
+    {"mot": "loin", "emoji": "🔭"},
+    {"mot": "coin", "emoji": "📐"},
+    {"mot": "soin", "emoji": "🩹"},
+    {"mot": "foin", "emoji": "🌾"}
+  ],
+  "histoire": {
+    "titre": "le coin du lapin",
+    "lignes": [
+      "le lapin a un coin à lui.",
+      "son coin est loin, tout au fond.",
+      "il y a du foin dans le coin.",
+      "le lapin range son coin avec soin.",
+      "le lapin pointe son coin de la patte.",
+      "le point du lapin est très lointain.",
+      "le lapin a moins de foin, mais il rit."
+    ]
+  }
+}

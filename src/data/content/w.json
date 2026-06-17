@@ -1,0 +1,35 @@
+{
+  "id": "w",
+  "mnemonic": "Le w fait deux vagues, comme la peau du kiwi : ouié, ouié !",
+  "geste": "Trace deux vagues dans l'air avec le doigt en disant ouié.",
+  "ecoute": {
+    "motsAvec": ["kiwi", "wapiti", "wok", "ouate", "oui", "kiwis"],
+    "motsSans": ["lune", "chat", "robe", "pomme"]
+  },
+  "syllabes": ["wi", "wa", "wo", "wé", "wou", "wè", "ki", "ti"],
+  "mots": ["kiwi", "kiwis", "wapiti", "wok", "ami", "ride", "tomate", "rivière"],
+  "phrases": [
+    "Le wapiti a vu un kiwi.",
+    "Il y a des kiwis dans le wok.",
+    "Léa cuit le riz dans le wok.",
+    "Mon ami a mis deux kiwis ici.",
+    "Le wapiti boit dans la rivière."
+  ],
+  "motsOutils": ["le", "un", "des", "dans", "deux"],
+  "dictee": [
+    {"mot": "kiwi", "emoji": "🥝"},
+    {"mot": "wok", "emoji": "🍳"},
+    {"mot": "ami", "emoji": "🧑‍🤝‍🧑"}
+  ],
+  "histoire": {
+    "titre": "Le kiwi du wapiti",
+    "lignes": [
+      "Le wapiti a vu un kiwi.",
+      "Il a mis le kiwi dans le wok.",
+      "Mon ami rit et arrive vite.",
+      "Il y a deux kiwis pour le wapiti.",
+      "Le wapiti dévore les kiwis.",
+      "Quel régal pour le wapiti !"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "e-grave",
+  "mnemonic": "Le zèbre ouvre grand la bouche et crie « è ! » quand il galope dans la savane.",
+  "geste": "Ouvre bien la bouche et tire un grand sourire en disant « è ».",
+  "ecoute": {
+    "motsAvec": ["zèbre", "règle", "flèche", "chèvre", "rivière", "lumière"],
+    "motsSans": ["chat", "domino", "lune", "bulle"]
+  },
+  "syllabes": ["è", "èa", "aè", "èo", "oè", "èi", "èu", "ééè", "èé", "iè"],
+  "mots": ["è"],
+  "phrases": ["è ! è ! è !", "Il y a é et è.", "à é è à é è"],
+  "motsOutils": ["à", "et", "est", "il", "y"],
+  "dictee": [{"mot": "è", "emoji": "🦓"}],
+  "histoire": {
+    "titre": "é et è",
+    "lignes": [
+      "é, é, é !",
+      "è, è, è !",
+      "Il y a é.",
+      "Il y a è.",
+      "é est là, è est là."
+    ]
+  }
+}

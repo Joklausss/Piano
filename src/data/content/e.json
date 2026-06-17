@@ -1,0 +1,26 @@
+{
+  "id": "e",
+  "mnemonic": "Le renard fatigué souffle un petit \"e\" tout doux, la bouche à peine ouverte.",
+  "geste": "Pose un doigt sur tes lèvres entrouvertes et murmure un \"e\" léger et discret.",
+  "ecoute": {
+    "motsAvec": ["renard", "cheval", "petit", "fenêtre", "menu", "regarde"],
+    "motsSans": ["lune", "moto", "rat", "vélo"]
+  },
+  "syllabes": ["e", "ea", "ei", "eo", "eu", "eé", "eè", "ae", "ie", "ée"],
+  "mots": ["e"],
+  "phrases": ["A, i, e !", "E, é, è.", "I, e, a."],
+  "motsOutils": ["le", "de", "et"],
+  "dictee": [
+    {"mot": "e", "emoji": "🦊"}
+  ],
+  "histoire": {
+    "titre": "A, i, e !",
+    "lignes": [
+      "A !",
+      "I !",
+      "E !",
+      "A, i, e.",
+      "É, è, e !"
+    ]
+  }
+}

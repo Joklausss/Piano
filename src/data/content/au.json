@@ -1,0 +1,37 @@
+{
+  "id": "au",
+  "mnemonic": "Le « a » et le « u » montent ensemble dans le bateau et chantent [o] !",
+  "geste": "Une main dessine une vague, puis glisse comme un bateau qui avance.",
+  "ecoute": {
+    "motsAvec": ["bateau", "château", "saut", "manteau", "épaule", "chaud"],
+    "motsSans": ["lune", "pomme", "souris"]
+  },
+  "syllabes": ["au", "rau", "sau", "bau", "tau", "veau", "reau", "peau", "neau", "chau"],
+  "mots": ["bateau", "château", "auto", "saut", "taupe", "chaud", "veau", "peau", "rideau", "tuyau", "noyau", "tonneau"],
+  "phrases": [
+    "Le bateau file sur le canal.",
+    "La taupe a chaud sous la terre.",
+    "Léo monte vite dans son auto.",
+    "Le veau a une jolie peau douce.",
+    "Paul ôte son manteau et part."
+  ],
+  "motsOutils": ["au", "sur", "dans", "très", "chez"],
+  "dictee": [
+    {"mot": "bateau", "emoji": "🚤"},
+    {"mot": "auto", "emoji": "🚗"},
+    {"mot": "saut", "emoji": "🤸"},
+    {"mot": "veau", "emoji": "🐮"}
+  ],
+  "histoire": {
+    "titre": "Le beau bateau de Paul",
+    "lignes": [
+      "Paul a un beau bateau.",
+      "Il monte vite sur le bateau.",
+      "Le bateau file sur le canal.",
+      "Paul a chaud, il ôte son manteau.",
+      "Une taupe le salue de sa peau douce.",
+      "Léo arrive avec son auto.",
+      "Quel beau saut ! dit Paul, ravi."
+    ]
+  }
+}

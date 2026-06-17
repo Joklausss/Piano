@@ -1,0 +1,38 @@
+{
+  "id": "en",
+  "mnemonic": "En serrant la dent, ma bouche dit 'en' comme le vent qui s'engouffre.",
+  "geste": "On pince une dent du doigt en soufflant doucement 'en' par le nez.",
+  "ecoute": {
+    "motsAvec": ["dent", "vent", "enfant", "tente", "menton", "ruban"],
+    "motsSans": ["lune", "moto", "robot", "souris"]
+  },
+  "syllabes": ["en", "ten", "ven", "len", "men", "den", "pen", "ren", "em", "tem"],
+  "mots": ["dent", "vent", "lent", "tente", "pente", "menton", "entre", "enfin", "enfant", "ventre", "content", "pendant"],
+  "phrases": [
+    "La dent de Léon est lente à pousser.",
+    "Le vent penche la tente sur la pente.",
+    "Renan est content, il enroule un ruban.",
+    "L'enfant entre dans la cabane sans bruit.",
+    "Maman pose la dent sur le menton de Tom."
+  ],
+  "motsOutils": ["dans", "sans", "puis", "très", "vers"],
+  "dictee": [
+    {"mot": "dent", "emoji": "🦷"},
+    {"mot": "vent", "emoji": "🌬️"},
+    {"mot": "tente", "emoji": "⛺"},
+    {"mot": "menton", "emoji": "👦"},
+    {"mot": "enfant", "emoji": "🧒"}
+  ],
+  "histoire": {
+    "titre": "Le vent et la tente",
+    "lignes": [
+      "Léon monte la tente sur la pente.",
+      "Le vent souffle et la tente penche.",
+      "L'enfant tient la corde, il est content.",
+      "Renan arrive et entre dans la tente.",
+      "Ils restent dedans, sans bruit, pendant la pluie.",
+      "Puis le vent tombe et le soleil rentre.",
+      "La tente reste là, quel bon moment !"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "oi",
+  "mnemonic": "Le roi lève son doigt et dit \"oi !\" en ouvrant grand la bouche.",
+  "geste": "Pointer son doigt devant soi comme un roi qui ordonne, en disant [oi].",
+  "ecoute": {
+    "motsAvec": ["roi", "étoile", "voiture", "armoire", "poire", "ardoise"],
+    "motsSans": ["chat", "lune", "robot"]
+  },
+  "syllabes": ["oi", "loi", "moi", "toi", "roi", "boi", "voi", "soi", "joi", "foi"],
+  "mots": ["roi", "moi", "toi", "loi", "noix", "doigt", "bois", "voile", "poire", "soir", "toit", "boire"],
+  "phrases": [
+    "Le roi a un doigt sur le toit.",
+    "Toi et moi, on voit la voile.",
+    "Le soir, il boit dans son bol.",
+    "Ma poire est sur la boîte.",
+    "Il a vu une noix dans le bois."
+  ],
+  "motsOutils": ["sur", "dans", "son", "mon", "ma"],
+  "dictee": [
+    {"mot": "roi", "emoji": "👑"},
+    {"mot": "noix", "emoji": "🌰"},
+    {"mot": "poire", "emoji": "🍐"},
+    {"mot": "toit", "emoji": "🏠"}
+  ],
+  "histoire": {
+    "titre": "Le roi et la poire",
+    "lignes": [
+      "Le roi va dans le bois.",
+      "Sur un arbre, il voit une poire.",
+      "Mais la poire est loin !",
+      "Le roi monte avec son ami le chat.",
+      "Le chat a une patte sur le toit.",
+      "Il voit la poire et la donne au roi.",
+      "Le soir, le roi a sa belle poire."
+    ]
+  }
+}
