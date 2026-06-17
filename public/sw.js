@@ -2,7 +2,7 @@
 // Le « base » est déduit de l'emplacement du SW (racine en local, /Piano sur GitHub Pages).
 const BASE = self.location.pathname.replace(/\/sw\.js$/, "");
 const HOME = BASE + "/";
-const CACHE = "mpm-v2";
+const CACHE = "mpm-v3";
 const CORE = [
   HOME,
   BASE + "/parcours/",

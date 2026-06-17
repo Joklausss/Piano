@@ -35,11 +35,32 @@ const DEFAULT_PROGRESS: ProgressState = {
   badges: [],
 };
 
-// ---------- accès bas niveau ----------
+// ---------- accès bas niveau (avec repli mémoire si localStorage indisponible) ----------
+const mem = new Map<string, string>();
+function lsGet(key: string): string | null {
+  try {
+    const v = localStorage.getItem(key);
+    if (v !== null) return v;
+  } catch {}
+  return mem.has(key) ? (mem.get(key) as string) : null;
+}
+function lsSet(key: string, value: string): void {
+  mem.set(key, value);
+  try {
+    localStorage.setItem(key, value);
+  } catch {}
+}
+function lsRemove(key: string): void {
+  mem.delete(key);
+  try {
+    localStorage.removeItem(key);
+  } catch {}
+}
+
 function read<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") return fallback;
   try {
-    const raw = localStorage.getItem(key);
+    const raw = lsGet(key);
     return raw ? ({ ...fallback, ...JSON.parse(raw) } as T) : fallback;
   } catch {
     return fallback;
@@ -47,9 +68,7 @@ function read<T>(key: string, fallback: T): T {
 }
 function write(key: string, value: unknown) {
   if (typeof window === "undefined") return;
-  try {
-    localStorage.setItem(key, JSON.stringify(value));
-  } catch {}
+  lsSet(key, JSON.stringify(value));
   emit();
 }
 
@@ -76,7 +95,7 @@ function useStoreTick(): number {
 export function listProfiles(): Profile[] {
   if (typeof window === "undefined") return [];
   try {
-    const raw = localStorage.getItem(K_PROFILES);
+    const raw = lsGet(K_PROFILES);
     return raw ? (JSON.parse(raw) as Profile[]) : [];
   } catch {
     return [];
@@ -87,18 +106,12 @@ function saveProfiles(p: Profile[]) {
 }
 export function getActiveId(): string | null {
   if (typeof window === "undefined") return null;
-  try {
-    return localStorage.getItem(K_ACTIVE);
-  } catch {
-    return null;
-  }
+  return lsGet(K_ACTIVE);
 }
 export function setActiveId(id: string | null) {
   if (typeof window === "undefined") return;
-  try {
-    if (id) localStorage.setItem(K_ACTIVE, id);
-    else localStorage.removeItem(K_ACTIVE);
-  } catch {}
+  if (id) lsSet(K_ACTIVE, id);
+  else lsRemove(K_ACTIVE);
   emit();
 }
 
@@ -106,6 +119,29 @@ let counter = 0;
 function newId() {
   counter += 1;
   return `p${Date.now().toString(36)}${counter}`;
+}
+
+/**
+ * Garantit qu'un profil actif existe (sinon en crée un par défaut), pour que la
+ * progression soit TOUJOURS enregistrée même si l'enfant n'a pas créé de profil.
+ */
+export function ensureActiveProfileId(): string {
+  const profiles = listProfiles();
+  const current = getActiveId();
+  if (current && profiles.some((p) => p.id === current)) return current;
+  if (profiles.length > 0) {
+    setActiveId(profiles[0].id);
+    return profiles[0].id;
+  }
+  const p: Profile = {
+    id: newId(),
+    name: "Mon enfant",
+    avatar: "🦊",
+    createdAt: Date.now(),
+  };
+  saveProfiles([p]);
+  setActiveId(p.id);
+  return p.id;
 }
 
 export function useProfiles() {
@@ -136,9 +172,7 @@ export function useProfiles() {
   const remove = useCallback((id: string) => {
     const all = listProfiles().filter((p) => p.id !== id);
     saveProfiles(all);
-    try {
-      localStorage.removeItem(K_PROGRESS(id));
-    } catch {}
+    lsRemove(K_PROGRESS(id));
     if (getActiveId() === id) setActiveId(all[0]?.id ?? null);
   }, []);
 
@@ -163,8 +197,8 @@ export function useProgress() {
 
   const update = useCallback(
     (mut: (p: ProgressState) => ProgressState) => {
-      const id = getActiveId();
-      if (!id) return;
+      // Crée un profil par défaut si besoin -> la progression est toujours sauvée.
+      const id = ensureActiveProfileId();
       write(K_PROGRESS(id), mut(getProgress(id)));
     },
     [],
@@ -297,15 +331,13 @@ export function exportState(): AppState {
 /** Réinjecte un état (venu du cloud) dans le localStorage et notifie l'UI. */
 export function importState(state: Partial<AppState> | null | undefined): void {
   if (!state || typeof window === "undefined") return;
-  try {
-    if (state.profiles) localStorage.setItem(K_PROFILES, JSON.stringify(state.profiles));
-    if (state.progress) {
-      for (const [id, pr] of Object.entries(state.progress)) {
-        localStorage.setItem(K_PROGRESS(id), JSON.stringify(pr));
-      }
+  if (state.profiles) lsSet(K_PROFILES, JSON.stringify(state.profiles));
+  if (state.progress) {
+    for (const [id, pr] of Object.entries(state.progress)) {
+      lsSet(K_PROGRESS(id), JSON.stringify(pr));
     }
-    if (state.settings) localStorage.setItem(K_SETTINGS, JSON.stringify(state.settings));
-    if (state.active) localStorage.setItem(K_ACTIVE, state.active);
-  } catch {}
+  }
+  if (state.settings) lsSet(K_SETTINGS, JSON.stringify(state.settings));
+  if (state.active) lsSet(K_ACTIVE, state.active);
   emit();
 }
