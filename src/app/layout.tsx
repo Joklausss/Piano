@@ -26,15 +26,17 @@ const andika = Andika({
   display: "swap",
 });
 
+const BP = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export const metadata: Metadata = {
   title: "Mon Piano des mots — apprendre à lire au CP",
   description:
     "Apprendre à lire au CP avec la méthode syllabique : on chante les sons, puis on colle les lettres comme on joue du piano.",
-  manifest: "/manifest.webmanifest",
+  manifest: `${BP}/manifest.webmanifest`,
   applicationName: "Mon Piano des mots",
   icons: {
-    icon: "/icon.svg",
-    apple: "/icon.svg",
+    icon: `${BP}/icon.svg`,
+    apple: `${BP}/icon.svg`,
   },
   appleWebApp: {
     capable: true,

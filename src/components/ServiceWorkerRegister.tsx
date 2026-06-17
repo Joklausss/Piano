@@ -15,8 +15,9 @@ export default function ServiceWorkerRegister() {
     ) {
       return;
     }
+    const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
     const onLoad = () => {
-      navigator.serviceWorker.register("/sw.js").catch(() => {
+      navigator.serviceWorker.register(`${base}/sw.js`, { scope: `${base}/` }).catch(() => {
         /* hors-ligne indisponible — l'app reste utilisable en ligne */
       });
     };

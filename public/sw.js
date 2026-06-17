@@ -1,18 +1,21 @@
 // Service worker — mode hors-ligne (PWA) pour « Mon Piano des mots ».
-const CACHE = "mpm-v1";
+// Le « base » est déduit de l'emplacement du SW (racine en local, /Piano sur GitHub Pages).
+const BASE = self.location.pathname.replace(/\/sw\.js$/, "");
+const HOME = BASE + "/";
+const CACHE = "mpm-v2";
 const CORE = [
-  "/",
-  "/parcours",
-  "/piano",
-  "/module-0",
-  "/mur-des-sons",
-  "/atelier",
-  "/dictee",
-  "/histoires",
-  "/jeux",
-  "/adulte",
-  "/manifest.webmanifest",
-  "/icon.svg",
+  HOME,
+  BASE + "/parcours/",
+  BASE + "/piano/",
+  BASE + "/module-0/",
+  BASE + "/mur-des-sons/",
+  BASE + "/atelier/",
+  BASE + "/dictee/",
+  BASE + "/histoires/",
+  BASE + "/jeux/",
+  BASE + "/adulte/",
+  BASE + "/manifest.webmanifest",
+  BASE + "/icon.svg",
 ];
 
 self.addEventListener("install", (event) => {
@@ -49,7 +52,7 @@ self.addEventListener("fetch", (event) => {
           caches.open(CACHE).then((c) => c.put(req, copy));
           return res;
         })
-        .catch(() => caches.match(req).then((r) => r || caches.match("/"))),
+        .catch(() => caches.match(req).then((r) => r || caches.match(HOME))),
     );
     return;
   }
