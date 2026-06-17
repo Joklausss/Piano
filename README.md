@@ -96,6 +96,13 @@ Collecte **minimale**, **aucun tracking publicitaire**. La progression et les pr
 sont stockés **localement** dans le navigateur (localStorage) — rien n'est envoyé sur
 un serveur.
 
+**Comptes & synchronisation (optionnel).** Pour retrouver la progression d'un
+appareil à l'autre, on peut activer une connexion par **email + mot de passe**
+(Supabase). Désactivée par défaut ; voir **[`SETUP_SUPABASE.md`](SETUP_SUPABASE.md)**.
+Quand elle est activée, un compte parent regroupe les profils enfants et la
+progression est synchronisée (données protégées par RLS, la clé publique est sans
+risque). Sans configuration, l'app reste 100 % locale.
+
 ## 📁 Structure
 
 ```

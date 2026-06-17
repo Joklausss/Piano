@@ -270,3 +270,42 @@ function computeBadges(masteredSons: string[], current: string[]): string[] {
   }
   return [...set];
 }
+
+// ---------- synchronisation cloud : export / import de l'état complet ----------
+export interface AppState {
+  v: number;
+  profiles: Profile[];
+  progress: Record<string, ProgressState>;
+  settings: Settings;
+  active: string | null;
+}
+
+/** Sérialise tout l'état local (profils + progression + réglages). */
+export function exportState(): AppState {
+  const profiles = listProfiles();
+  const progress: Record<string, ProgressState> = {};
+  for (const p of profiles) progress[p.id] = getProgress(p.id);
+  return {
+    v: 1,
+    profiles,
+    progress,
+    settings: read<Settings>(K_SETTINGS, DEFAULT_SETTINGS),
+    active: getActiveId(),
+  };
+}
+
+/** Réinjecte un état (venu du cloud) dans le localStorage et notifie l'UI. */
+export function importState(state: Partial<AppState> | null | undefined): void {
+  if (!state || typeof window === "undefined") return;
+  try {
+    if (state.profiles) localStorage.setItem(K_PROFILES, JSON.stringify(state.profiles));
+    if (state.progress) {
+      for (const [id, pr] of Object.entries(state.progress)) {
+        localStorage.setItem(K_PROGRESS(id), JSON.stringify(pr));
+      }
+    }
+    if (state.settings) localStorage.setItem(K_SETTINGS, JSON.stringify(state.settings));
+    if (state.active) localStorage.setItem(K_ACTIVE, state.active);
+  } catch {}
+  emit();
+}

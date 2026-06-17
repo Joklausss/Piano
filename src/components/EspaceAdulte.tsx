@@ -10,6 +10,7 @@ import {
   type Ecriture,
 } from "@/lib/store";
 import { SONS } from "@/lib/progression";
+import AccountPanel from "@/components/AccountPanel";
 
 function Lock({ onUnlock }: { onUnlock: () => void }) {
   const [q, setQ] = useState<{ a: number; b: number } | null>(null);
@@ -100,6 +101,12 @@ export default function EspaceAdulte() {
 
   return (
     <div className="space-y-6">
+      {/* Compte & synchronisation */}
+      <section>
+        <h2 className="mb-2 font-display text-lg font-semibold text-ink">☁️ Compte & synchronisation</h2>
+        <AccountPanel />
+      </section>
+
       {/* Progrès */}
       <section>
         <h2 className="mb-2 font-display text-lg font-semibold text-ink">📊 Suivi des enfants</h2>

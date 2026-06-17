@@ -11,6 +11,7 @@
     "check:decodability": "node scripts/check-decodability.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
     "framer-motion": "^11.5.4",
     "next": "14.2.18",
     "react": "18.3.1",

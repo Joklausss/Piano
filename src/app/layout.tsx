@@ -3,6 +3,7 @@ import { Fredoka, Nunito, Andika } from "next/font/google";
 import "./globals.css";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 import SoundButton from "@/components/SoundButton";
+import CloudSync from "@/components/CloudSync";
 
 const fredoka = Fredoka({
   subsets: ["latin"],
@@ -69,6 +70,7 @@ export default function RootLayout({
           Aller au contenu
         </a>
         <ServiceWorkerRegister />
+        <CloudSync />
         <SoundButton />
         {children}
       </body>

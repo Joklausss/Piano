@@ -3,7 +3,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useProfiles } from "@/lib/store";
+import { cloudConfigured } from "@/lib/supabase";
 import Mascotte from "@/components/Mascotte";
+import AccountPanel from "@/components/AccountPanel";
 import { Tile } from "@/components/ui";
 
 const AVATARS = ["🦊", "🐱", "🐰", "🐻", "🦉", "🐼", "🦁", "🐸", "🐧", "🦄"];
@@ -136,9 +138,20 @@ export default function Home() {
         />
       </div>
 
-      <div className="mb-5">
+      <div className="mb-3">
         <ProfilePicker />
       </div>
+
+      {cloudConfigured && (
+        <details className="mb-5 rounded-xl2 border-2 border-[#F1E2CB] bg-white/70 shadow-softs">
+          <summary className="flex min-h-tap cursor-pointer items-center gap-2 px-4 py-3 font-display font-semibold text-ink">
+            ☁️ Compte & synchronisation
+          </summary>
+          <div className="px-3 pb-3">
+            <AccountPanel />
+          </div>
+        </details>
+      )}
 
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
         <Tile href="/parcours" emoji="🗺️" title="Le parcours" sub="Mes leçons de sons" color="#F2785C" />
