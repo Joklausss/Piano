@@ -5,6 +5,7 @@
 // ailleurs dans l'interface).
 
 let voices: SpeechSynthesisVoice[] = [];
+let cachedVoice: SpeechSynthesisVoice | null = null;
 let globalEnabled = true;
 const KEY = "mpm.audio";
 
@@ -14,6 +15,43 @@ function loadVoices() {
   } catch {
     voices = [];
   }
+  cachedVoice = null; // forcer le re-choix de la meilleure voix
+}
+
+// Voix les plus naturelles (neuronales / enrichies) selon les plateformes.
+const PREFERRED = [
+  "google", "natural", "neural", "enhanced", "premium",
+  "amélie", "amelie", "aurélie", "aurelie", "audrey", "thomas",
+  "hortense", "julie", "marie", "céline", "celine", "léa", "lea", "flo", "sandy",
+];
+const ROBOTIC = ["compact", "eloquence", "pico", "espeak"];
+
+function scoreVoice(v: SpeechSynthesisVoice): number {
+  const name = (v.name || "").toLowerCase();
+  const lang = (v.lang || "").toLowerCase();
+  if (!lang.startsWith("fr")) return -1;
+  let s = lang === "fr-fr" ? 6 : 3;
+  for (const k of PREFERRED) if (name.includes(k)) s += 4;
+  if (name.includes("google")) s += 3; // souvent les plus naturelles (Chrome/Android)
+  if (v.localService === false) s += 1;
+  for (const k of ROBOTIC) if (name.includes(k)) s -= 6;
+  return s;
+}
+
+/** Renvoie la voix française la plus « humaine » disponible (ou null). */
+export function bestFrenchVoice(): SpeechSynthesisVoice | null {
+  if (cachedVoice && voices.includes(cachedVoice)) return cachedVoice;
+  let best: SpeechSynthesisVoice | null = null;
+  let bestScore = -1;
+  for (const v of voices) {
+    const sc = scoreVoice(v);
+    if (sc > bestScore) {
+      bestScore = sc;
+      best = v;
+    }
+  }
+  cachedVoice = bestScore >= 0 ? best : null;
+  return cachedVoice;
 }
 
 if (typeof window !== "undefined") {
@@ -61,12 +99,10 @@ export function speak(text: string, opts: SpeakOptions = {}): void {
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "fr-FR";
-    u.rate = opts.rate ?? 0.8;
-    u.pitch = opts.pitch ?? 1.1;
-    const fr =
-      voices.find((v) => /^fr[-_]/i.test(v.lang)) ||
-      voices.find((v) => /fr/i.test(v.lang));
-    if (fr) u.voice = fr;
+    u.rate = opts.rate ?? 0.85;
+    u.pitch = opts.pitch ?? 1.0;
+    const v = bestFrenchVoice();
+    if (v) u.voice = v;
     window.speechSynthesis.speak(u);
   } catch {}
 }

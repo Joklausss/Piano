@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
-import { isAudioEnabled } from "@/lib/audio";
+import { isAudioEnabled, bestFrenchVoice } from "@/lib/audio";
 import { DecodableWord } from "./DecodableText";
 import type { AideLevel } from "@/lib/store";
 
@@ -78,7 +78,9 @@ export default function StoryReader({
         const u = new SpeechSynthesisUtterance(core || tokens[i].text);
         u.lang = "fr-FR";
         u.rate = rate;
-        u.pitch = 1.08;
+        u.pitch = 1.0;
+        const voice = bestFrenchVoice();
+        if (voice) u.voice = voice;
         u.onend = () => speakAt(i + 1);
         u.onerror = () => speakAt(i + 1);
         window.speechSynthesis.speak(u);

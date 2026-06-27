@@ -18,7 +18,11 @@ const PERIOD_COLOR: Record<number, string> = {
 export default function ParcoursMap() {
   const { progress, isSonUnlocked, isMastered } = useProgress();
   const masteredCount = progress.masteredSons.length;
-  const nextSon = SONS.find((s) => isSonUnlocked(s.index) && !isMastered(s.id));
+  // « Continuer » vise la 1re leçon non faite après les voyelles (donc L au départ),
+  // sinon n'importe quelle leçon débloquée non maîtrisée.
+  const nextSon =
+    SONS.find((s) => isSonUnlocked(s.index) && !isMastered(s.id) && s.type !== "voyelle") ??
+    SONS.find((s) => isSonUnlocked(s.index) && !isMastered(s.id));
 
   return (
     <div>

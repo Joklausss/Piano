@@ -256,7 +256,11 @@ export function useProgress() {
   const isSonUnlocked = (index: number) => {
     if (settings.freeNavigation) return true;
     if (index <= 0) return true;
-    return progress.masteredSons.includes(SONS[index - 1].id);
+    const prev = SONS[index - 1];
+    // Les voyelles sont une révision (maternelle) : elles sont déjà débloquées,
+    // et la première consonne (L) est donc accessible directement.
+    if (prev && prev.type === "voyelle") return true;
+    return progress.masteredSons.includes(prev.id);
   };
 
   return {
